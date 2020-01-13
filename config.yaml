@@ -28,12 +28,11 @@ Standards:
     Description: Intake survey for Galvanize Training at USAA 
     SuccessCriteria:
       -  Complete the survey
-      -  Schedule interview with instructor
     ContentFiles:
       # - Type: Lesson
       #   UID:  
       #   Path: /folder/file.md
-      #- Type: Checkpoint
-      #  UID:   
-      #  Path: /folder/file.md
-      #  Autoscore: true
+      - Type: Checkpoint
+        UID: 5da00770-364a-11ea-8200-49856ed013fb
+        Path: /pre-assessment-survey.md
+        Autoscore: true
