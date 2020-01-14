@@ -219,8 +219,57 @@ On my dev team
 
 ## Testing
 <!-- JUnit -->
+<!--BEGIN CHALLENGE-->
+### !challenge
+* type: multiple-choice
+* id: 8c573a4d-91ef-4052-8032-96d3c114fc6a
+* title: How would you rate your knowledge of
+##### !question
+JUnit?
+##### !end-question
+##### !options
+* Never heard of it
+* Played with it
+* Novice
+* Proficient
+* Expert
+* I could teach it!
+##### !end-options
+##### !answer
+Novice
+##### !end-answer
+##### !explanation
+##### !end-explanation
+### !end-challenge
+<!--END CHALLENGE-->
+
 <!-- Mockito  -->
+
 <!-- Jest -->
+<!--BEGIN CHALLENGE-->
+### !challenge
+* type: multiple-choice
+* id: a8af33d8-2627-469b-99b8-c38ac8c826bb
+* title: How would you rate your knowledge of
+##### !question
+Jest / Enzyme?
+##### !end-question
+##### !options
+* Never heard of it
+* Played with it
+* Novice
+* Proficient
+* Expert
+* I could teach it!
+##### !end-options
+##### !answer
+Novice
+##### !end-answer
+##### !explanation
+##### !end-explanation
+### !end-challenge
+<!--END CHALLENGE-->
+
 <!-- Cypress -->
 
 <!--BEGIN CHALLENGE-->
