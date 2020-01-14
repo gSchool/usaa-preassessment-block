@@ -154,7 +154,7 @@ Novice
 * id: 7af48407-0a16-49c4-9504-0efc3fd8676a
 * title: How would you rate your knowledge of
 ##### !question
-git?
+Git?
 ##### !end-question
 ##### !options
 * Never heard of it
@@ -200,13 +200,13 @@ does not use version control.
 * id: 871c7ffc-e903-4b10-8789-ec511dde5ee9
 * title: Trunk-based development
 ##### !question
-Select all that apply:
+On my dev team
 ##### !end-question
 ##### !options
 * Branches/forks are typically merged to trunk/master the same day they are created.
-* My team has three or fewer active branches in our code repositories.
+* We maintain three or fewer active branches in our code repositories.
 * Every developer on my team typically checks code into version control at least once a day.
-* My team rarely or never has "code lock" periods due to merge conflicts or stabilization phases.
+* We rarely or never have "code lock" periods due to merge conflicts or stabilization phases.
 * Code review happens through pair programming or the same day it is requested before merging.
 ##### !end-options
 ##### !answer
@@ -299,12 +299,12 @@ Novice
 * id: 7e73815a-d002-4855-a2de-8bf1ec0bb22a
 * title: Continuous Integration
 ##### !question
-Select all that apply:
+On my dev team
 ##### !end-question
 ##### !options
 * Each check-in of code by my team triggers an automated process which builds the code (if applicable) and runs automated unit tests.
-* Developers on my team run the automated build/test process before checking in code.
-* Developers on my team immediately fix problems discovered by the automated tests.
+* Developers (on the team) run the automated build/test process before checking in code.
+* Developers (on the team) immediately fix problems discovered by the automated tests.
 * Our CI process creates canonical builds and packages.
 * The automated build and test process takes less than 10 minutes to run.
 ##### !end-options
@@ -322,7 +322,7 @@ Select all that apply:
 * id: 9977d55a-8733-4982-9af5-7e0c68e8fa23
 * title: Test Automation
 ##### !question
-On our team
+On my dev team
 ##### !end-question
 ##### !options
 * Software testing is a separate phase that comes after "dev complete" / we do no software testing.
@@ -344,17 +344,17 @@ Software testing is a separate phase that comes after "dev complete" / we do no 
 * id: 7f7eec8a-ba17-4ae7-9f72-5667b74b0f76
 * title: Continuous Delivery
 ##### !question
-Select all that apply:
+My dev team
 ##### !end-question
 ##### !options
-* Trunk/master is always in a deployable state.
-* My team prioritizes keeping software in a deployable state over working on new features.
-* Fast feedback on quality and deployability of the system is available to all of my team members.
-* Fixes to the software are made quickly when it is discovered that the system isn't deployable.
-* My team can deploy to production or end users on demand at any time.
+* Maintains trunk/master in a deployable state at all times.
+* Prioritizes keeping software in a deployable state over working on new features.
+* Makes fast feedback on quality and deployability of the system available to all of team members.
+* Makes fixes to the software quickly when we discover that the system isn't deployable.
+* Can deploy to production or end users on demand at any time.
 ##### !end-options
 ##### !answer
-* Trunk/master is always in a deployable state.
+* can deploy to production or end users on demand at any time.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -751,15 +751,15 @@ Exclusively
 ### !challenge
 * type: multiple-choice
 * id: 58965e49-a538-4dda-a5dc-4a158b9de412
-* title: Assigned Work
+* title: Work in Small Chunks
 ##### !question
 My dev team
 ##### !end-question
 ##### !options
-* I don't know how my team works.
 * works on large projects that take several weeks or months to complete.
 * works on projects that take over a week to several weeks to complete.
 * works on smaller tasks that can be handed off in a week or less.
+* I don't know how my team works.
 ##### !end-options
 ##### !answer
 I don't know how my team works.
@@ -775,14 +775,14 @@ I don't know how my team works.
 * id: e857e1fb-aff7-43f4-a1bf-b3ea21e9fdfe
 * title: Make Work Meaningful
 ##### !question
-Select all that apply:
+My dev team
 ##### !end-question
 ##### !options
-* My team works on tasks that make good use of our skills and abilities.
-* My team is given the tools and resources we need to do our work.
-* My team does work that is important to the mission of the organization.
-* My team members are satisfied with their work.
-* My team members are empowered to exercise their judgement in doing their work.
+* works on tasks that make good use of our skills and abilities.
+* is given the tools and resources we need to do our work.
+* does work that is important to the mission of the organization.
+* members are satisfied with their work.
+* members are empowered to exercise their judgement in doing their work.
 ##### !end-options
 ##### !answer
 * My team members are empowered to exercise their judgement in doing their work.
@@ -798,17 +798,17 @@ Select all that apply:
 * id: 0f729bce-9df5-4f1b-bddd-0525b6818da3
 * title: Transformational Leadership
 ##### !question
-Select all that apply:
+My dev team
 ##### !end-question
 ##### !options
-* My team has leaders who clearly and compellingly articulate the vision of the organization to the group.
-* My team has leaders who challenge them to think outside of the box and constantly ask new questions about their work.
-* My team has leaders who inspire them to be a part of the group through positivity and encouragement that change brings opportunities.
-* My team has leaders who are supportive, thoughtful, and care about individuals and others' personal feelings.
-* My team has leaders that acknowledge improvements, commend superior work, and personally compliment team members.
+* has leaders who clearly and compellingly articulate the vision of the organization to the group.
+* has leaders who challenge them to think outside of the box and constantly ask new questions about their work.
+* has leaders who inspire them to be a part of the group through positivity and encouragement that change brings opportunities.
+* has leaders who are supportive, thoughtful, and care about individuals and others' personal feelings.
+* has leaders that acknowledge improvements, commend superior work, and personally compliment team members.
 ##### !end-options
 ##### !answer
-* My team has leaders that acknowledge improvements, commend superior work, and personally compliment team members.
+* has leaders that acknowledge improvements, commend superior work, and personally compliment team members.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
