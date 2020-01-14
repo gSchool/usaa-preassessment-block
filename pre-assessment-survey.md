@@ -354,7 +354,7 @@ My dev team
 * Can deploy to production or end users on demand at any time.
 ##### !end-options
 ##### !answer
-* can deploy to production or end users on demand at any time.
+* Can deploy to production or end users on demand at any time.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -785,7 +785,7 @@ My dev team
 * members are empowered to exercise their judgement in doing their work.
 ##### !end-options
 ##### !answer
-* My team members are empowered to exercise their judgement in doing their work.
+* members are empowered to exercise their judgement in doing their work.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
