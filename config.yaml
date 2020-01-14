@@ -23,7 +23,7 @@
 
 # All UIDs must be unique within a repo. Use `cmd/ctrl+option/alt+u` to generate
 Standards:
-  - Title: USAA-PreAssessment
+  - Title: USAA Pre-Assessment
     UID:  7c5f1c40-3646-11ea-8200-49856ed013fb
     Description: Intake survey for Galvanize Training at USAA 
     SuccessCriteria:
