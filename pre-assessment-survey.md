@@ -17,7 +17,7 @@ How many years have you been developing web applications?
 * 10+ years
 ##### !end-options
 ##### !answer
-*
+10+ years
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -41,9 +41,10 @@ How would you rate your knowledge of the terminal and bash shell?
 * I could teach it!
 ##### !end-options
 ##### !answer
-*
+I could teach it!
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
+
