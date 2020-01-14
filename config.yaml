@@ -35,4 +35,4 @@ Standards:
       - Type: Checkpoint
         UID: 5da00770-364a-11ea-8200-49856ed013fb
         Path: /pre-assessment-survey.md
-        Autoscore: true
+        Autoscore: false
