@@ -845,19 +845,19 @@ My dev team
 ### !challenge
 * type: checkbox
 * id: 0f729bce-9df5-4f1b-bddd-0525b6818da3
-* title: Transformational Leadership
+* title: Transformational Teamwork
 ##### !question
 My dev team
 ##### !end-question
 ##### !options
-* has leaders who clearly and compellingly articulate the vision of the organization to the group.
-* has leaders who challenge them to think outside of the box and constantly ask new questions about their work.
-* has leaders who inspire them to be a part of the group through positivity and encouragement that change brings opportunities.
-* has leaders who are supportive, thoughtful, and care about individuals and others' personal feelings.
-* has leaders that acknowledge improvements, commend superior work, and personally compliment team members.
+* has team members who clearly and compellingly articulate the vision of the organization to the group.
+* has team members who challenge us to think outside of the box and constantly ask new questions about our work.
+* has team members who inspire us to be a part of the group through positivity and encouragement that change brings opportunities.
+* has team members who are supportive, thoughtful, and care about individuals and others' personal feelings.
+* has team members that acknowledge improvements, commend superior work, and personally compliment team members.
 ##### !end-options
 ##### !answer
-* has leaders that acknowledge improvements, commend superior work, and personally compliment team members.
+* has team members that acknowledge improvements, commend superior work, and personally compliment team members.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
