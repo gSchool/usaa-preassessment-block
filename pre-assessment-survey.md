@@ -818,28 +818,6 @@ I don't know how my team works.
 ### !end-challenge
 <!--END CHALLENGE-->
 
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: e857e1fb-aff7-43f4-a1bf-b3ea21e9fdfe
-* title: Make Work Meaningful
-##### !question
-My dev team
-##### !end-question
-##### !options
-* works on tasks that make good use of our skills and abilities.
-* is given the tools and resources we need to do our work.
-* does work that is important to the mission of the organization.
-* members are satisfied with their work.
-* members are empowered to exercise their judgement in doing their work.
-##### !end-options
-##### !answer
-* members are empowered to exercise their judgement in doing their work.
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
