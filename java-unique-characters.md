@@ -1,7 +1,7 @@
 # Java Programming
 
 ### !instructor
-A simple exercise to see how well a candidate can quickly come up with a readable and efficient solution; candidate's will most likely solve it using a single loop.
+A simple exercise to see how well a candidate can quickly come up with a readable and efficient solution; candidates will most likely solve it using a single loop.
 ### !end-instructor
 
 ## Task
