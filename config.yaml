@@ -29,10 +29,17 @@ Standards:
     SuccessCriteria:
       -  Complete the survey
     ContentFiles:
-      # - Type: Lesson
-      #   UID:  
-      #   Path: /folder/file.md
       - Type: Checkpoint
         UID: 5da00770-364a-11ea-8200-49856ed013fb
         Path: /pre-assessment-survey.md
         Autoscore: false
+  - Title: Java Coding Challenge
+    UID: b0979f17-2a35-4403-be98-10f0dcf5fd91
+    Description: Test your basic Java syntax
+    SuccessCriteria:
+      - All tests pass
+    ContentFiles:
+      - Type: Checkpoint
+        UID: 6db83840-023b-4ddd-b86d-5fdc5f254125 
+        Path: /java-unique-characters.md
+        Autoscore: true
