@@ -203,14 +203,14 @@ does not use version control.
 On my dev team
 ##### !end-question
 ##### !options
-* Branches/forks are typically merged to trunk/master the same day they are created.
-* We maintain three or fewer active branches in our code repositories.
-* Every developer on my team typically checks code into version control at least once a day.
-* We rarely or never have "code lock" periods due to merge conflicts or stabilization phases.
-* Code review happens through pair programming or the same day it is requested before merging.
+* branches/forks are typically merged to trunk/master the same day they are created.
+* we maintain three or fewer active branches in our code repositories.
+* every developer on my team typically checks code into version control at least once a day.
+* we rarely or never have "code lock" periods due to merge conflicts or stabilization phases.
+* code review happens through pair programming or the same day it is requested before merging.
 ##### !end-options
 ##### !answer
-* Branches/forks are typically merged to trunk/master the same day they are created.
+* branches/forks are typically merged to trunk/master the same day they are created.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -305,13 +305,13 @@ Novice
 My dev team
 ##### !end-question
 ##### !options
-* Practices TDD in a strict sense (tests written before code; red, green, refactor)
-* Writes tests prior to merging to a working branch
-* Writes tests prior to pushing to production
-* Does not write tests & relies on QA
+* practices TDD in a strict sense (tests written before code; red, green, refactor)
+* writes tests prior to merging to a working branch
+* writes tests prior to pushing to production
+* does not write tests & relies on QA
 ##### !end-options
 ##### !answer
-Does not write tests & relies on QA
+does not write tests & relies on QA
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -351,14 +351,14 @@ Novice
 On my dev team
 ##### !end-question
 ##### !options
-* Each check-in of code by my team triggers an automated process which builds the code (if applicable) and runs automated unit tests.
-* Developers (on the team) run the automated build/test process before checking in code.
-* Developers (on the team) immediately fix problems discovered by the automated tests.
-* Our CI process creates canonical builds and packages.
-* The automated build and test process takes less than 10 minutes to run.
+* each check-in of code by my team triggers an automated process which builds the code (if applicable) and runs automated unit tests.
+* developers (on the team) run the automated build/test process before checking in code.
+* developers (on the team) immediately fix problems discovered by the automated tests.
+* our CI process creates canonical builds and packages.
+* the automated build and test process takes less than 10 minutes to run.
 ##### !end-options
 ##### !answer
-* The automated build and test process takes less than 10 minutes to run.
+* the automated build and test process takes less than 10 minutes to run.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -374,13 +374,13 @@ On my dev team
 On my dev team
 ##### !end-question
 ##### !options
-* Software testing is a separate phase that comes after "dev complete" / we do no software testing.
-* Regression testing happens as part of the development process but is performed manually.
-* Automated tests/checks are created and run throughout the development process.
-* Automated tests/checks are created and run throughout the development process, and developers are primarily responsible for the creation and maintenance of test suites.
+* software testing is a separate phase that comes after "dev complete" / we do no software testing.
+* regression testing happens as part of the development process but is performed manually.
+* automated tests/checks are created and run throughout the development process.
+* automated tests/checks are created and run throughout the development process, and developers are primarily responsible for the creation and maintenance of test suites.
 ##### !end-options
 ##### !answer
-Software testing is a separate phase that comes after "dev complete" / we do no software testing.
+software testing is a separate phase that comes after "dev complete" / we do no software testing.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -396,14 +396,14 @@ Software testing is a separate phase that comes after "dev complete" / we do no 
 My dev team
 ##### !end-question
 ##### !options
-* Maintains trunk/master in a deployable state at all times.
-* Prioritizes keeping software in a deployable state over working on new features.
-* Makes fast feedback on quality and deployability of the system available to all of team members.
-* Makes fixes to the software quickly when we discover that the system isn't deployable.
-* Can deploy to production or end users on demand at any time.
+* maintains trunk/master in a deployable state at all times.
+* prioritizes keeping software in a deployable state over working on new features.
+* makes fast feedback on quality and deployability of the system available to all of team members.
+* makes fixes to the software quickly when we discover that the system isn't deployable.
+* can deploy to production or end users on demand at any time.
 ##### !end-options
 ##### !answer
-* Can deploy to production or end users on demand at any time.
+* can deploy to production or end users on demand at any time.
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -782,11 +782,11 @@ Novice
 I pair program with another developer (two keyboards, two mice):
 ##### !end-question
 ##### !options
-* Exclusively
-* For some time every day
-* More than twice per week
-* More than twice per month
-* Fewer than twice a month
+* exclusively
+* for some time every day
+* more than twice per week
+* more than twice per month
+* fewer than twice a month
 ##### !end-options
 ##### !answer
 Exclusively
