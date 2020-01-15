@@ -789,7 +789,7 @@ I pair program with another developer (two keyboards, two mice):
 * fewer than twice a month
 ##### !end-options
 ##### !answer
-Exclusively
+exclusively
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
