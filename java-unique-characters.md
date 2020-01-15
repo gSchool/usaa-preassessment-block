@@ -46,7 +46,7 @@ Implement the `hasUniqueChars` method.
 ```java
 class Challenge {
     public static boolean hasUniqueChars(String str) {
-        
+        // your code here
     }
 }
 ```
