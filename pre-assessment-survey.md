@@ -825,7 +825,7 @@ I don't know how my team works.
 * id: 0f729bce-9df5-4f1b-bddd-0525b6818da3
 * title: Transformational Teamwork
 ##### !question
-My dev team
+My team
 ##### !end-question
 ##### !options
 * has team members who clearly and compellingly articulate the vision of the organization to the group.
