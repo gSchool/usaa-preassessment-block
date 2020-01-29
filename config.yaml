@@ -43,3 +43,13 @@ Standards:
         UID: 6db83840-023b-4ddd-b86d-5fdc5f254125 
         Path: /java-unique-characters.md
         Autoscore: true
+  - Title: Javascript Coding Challenge
+    UID: ba26a7ba-06a6-455c-a306-6751042dc316
+    Description: Test your basic Javascript syntax
+    SuccessCriteria:
+      - All tests pass
+    ContentFiles:
+      - Type: Checkpoint
+        UID: 71775186-010d-4972-963c-3ad3e22414ae
+        Path: /javascript-two-sum.md
+        Autoscore: true
