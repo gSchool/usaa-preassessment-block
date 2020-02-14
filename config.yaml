@@ -25,7 +25,7 @@
 Standards:
   - Title: Self Assessment
     UID:  7c5f1c40-3646-11ea-8200-49856ed013fb
-    Description: Intake survey for Galvanize Training at USAA 
+    Description: Intake survey for Galvanize Training
     SuccessCriteria:
       -  Complete the survey
     ContentFiles:
@@ -40,7 +40,7 @@ Standards:
       - All tests pass
     ContentFiles:
       - Type: Checkpoint
-        UID: 6db83840-023b-4ddd-b86d-5fdc5f254125 
+        UID: 6db83840-023b-4ddd-b86d-5fdc5f254125
         Path: /java-unique-characters.md
         Autoscore: true
   - Title: Javascript Coding Challenge
