@@ -6,18 +6,23 @@ public class ChallengeTest {
 
   @Test
   public void shouldReturnTrueWhenAllAreUnique() {
-    assertEquals(true, Challenge.hasUniqueChars("abcdefghijklm"));
-    assertEquals(true, Challenge.hasUniqueChars(" abcC"));
-    assertEquals(true, Challenge.hasUniqueChars("iopkgysrwTn\u0008\u007f"));
-    assertEquals(true, Challenge.hasUniqueChars("903kslgoHjREW"));
-    assertEquals(true, Challenge.hasUniqueChars(""));
+    allUnique(true, "abcdefghijklm");
+    allUnique(true, " abcC");
+    allUnique(true, "iopkgysrwTn\u0008\u007f");
+    allUnique(true, "903kslgoHjREW");
+    allUnique(true, "");
   }
 
   @Test
   public void shouldReturnFalseWhenAnyAreRepeated() {
-    assertEquals(false, Challenge.hasUniqueChars("abb"));
-    assertEquals(false, Challenge.hasUniqueChars("   "));
-    assertEquals(false, Challenge.hasUniqueChars("apdofjeuafy"));
-    assertEquals(false, Challenge.hasUniqueChars("\u007f\u0008\u0009\u0009"));
+    allUnique(false, "abb");
+    allUnique(false, "   ");
+    allUnique(false, "apdofjeuafy");
+    allUnique(false, "\u007f\u0008\u0009\u0009");
+  }
+
+  void allUnique(boolean expectedResult, String str) {
+    assertEquals(expectedResult, Challenge.hasUniqueChars(str),
+     String.format("Only unique characters: '%s'", str));
   }
 }
