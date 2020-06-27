@@ -1,5 +1,7 @@
 class Challenge {
     public static boolean hasUniqueChars(String str) {
+        if (str == null || str.isEmpty()) return true;
+
         java.util.HashSet<Character> seen = new java.util.HashSet<>();
 
         for (char c : str.toCharArray()) seen.add(c);

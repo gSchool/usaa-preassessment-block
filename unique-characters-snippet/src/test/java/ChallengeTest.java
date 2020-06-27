@@ -11,6 +11,7 @@ public class ChallengeTest {
     allUnique(true, "iopkgysrwTn\u0008\u007f");
     allUnique(true, "903kslgoHjREW");
     allUnique(true, "");
+    allUnique(true, null);
   }
 
   @Test
