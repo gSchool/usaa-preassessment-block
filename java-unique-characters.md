@@ -7,7 +7,7 @@ A simple exercise to see how well a candidate can quickly come up with a readabl
 ## Task
 
 Write a program to determine if a string contains all unique characters.
-Return `true` if it does and `false` otherwise.
+Return `true` if it does and `false` otherwise. It should consider both `null` and an empty string as `true` since neither can possibly contain repeated characters.
 
 The string may contain any of the 128 ASCII characters.
 
