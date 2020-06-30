@@ -20,7 +20,7 @@ How many years have you been developing web applications?
 * 10+ years
 ##### !end-options
 ##### !answer
-10+ years
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -44,7 +44,7 @@ How many years have you been developing web applications?
 * I could teach it!
 ##### !end-options
 ##### !answer
-I could teach it!
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -68,7 +68,7 @@ Containers (eg. Docker)?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -92,7 +92,7 @@ Object Oriented (OO) programming?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -116,7 +116,7 @@ Functional programming?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -140,7 +140,7 @@ SQL?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -165,7 +165,7 @@ Git?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -187,7 +187,7 @@ My team
 * uses version control for all production artifacts, including application code, system configuration, and scripts for automating build and configuration of the environment.
 ##### !end-options
 ##### !answer
-does not use version control.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -210,7 +210,7 @@ On my dev team
 * code review happens through pair programming or the same day it is requested before merging.
 ##### !end-options
 ##### !answer
-* branches/forks are typically merged to trunk/master the same day they are created.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -236,7 +236,7 @@ JUnit?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -263,7 +263,7 @@ Jest / Enzyme?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -289,7 +289,7 @@ Test Driven Development (TDD)?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -311,7 +311,7 @@ My dev team
 * does not write tests & relies on QA
 ##### !end-options
 ##### !answer
-does not write tests & relies on QA
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -336,7 +336,7 @@ CI/CD?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -358,7 +358,7 @@ On my dev team
 * the automated build and test process takes less than 10 minutes to run.
 ##### !end-options
 ##### !answer
-* the automated build and test process takes less than 10 minutes to run.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -380,7 +380,7 @@ On my dev team
 * automated tests/checks are created and run throughout the development process, and developers are primarily responsible for the creation and maintenance of test suites.
 ##### !end-options
 ##### !answer
-software testing is a separate phase that comes after "dev complete" / we do no software testing.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -403,7 +403,7 @@ My dev team
 * can deploy to production or end users on demand at any time.
 ##### !end-options
 ##### !answer
-* can deploy to production or end users on demand at any time.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -425,7 +425,7 @@ My team deploys code to production
 * multiple times per day or on demand.
 ##### !end-options
 ##### !answer
-multiple times per day or on demand.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -451,7 +451,7 @@ Java?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -475,7 +475,7 @@ Java 8 streams?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -499,7 +499,7 @@ Java Spring?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -524,7 +524,7 @@ Javascript?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -548,7 +548,7 @@ Javascript ES6 features?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -572,7 +572,7 @@ The event loop, Javascript's asynchronous programming model?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -596,7 +596,7 @@ React.js?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -620,7 +620,7 @@ Pyrite.js?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -644,7 +644,7 @@ Redux?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -669,7 +669,7 @@ HTML?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -693,7 +693,7 @@ CSS?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -717,7 +717,7 @@ HTTP?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -741,7 +741,7 @@ RESTful API structure?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -766,7 +766,7 @@ Pair Programming?
 * I could teach it!
 ##### !end-options
 ##### !answer
-Novice
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -789,7 +789,7 @@ I pair program with another developer (two keyboards, two mice):
 * fewer than twice a month
 ##### !end-options
 ##### !answer
-exclusively
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -811,7 +811,7 @@ My dev team
 * I don't know how my team works.
 ##### !end-options
 ##### !answer
-I don't know how my team works.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -835,7 +835,7 @@ My team
 * has team members that acknowledge improvements, commend superior work, and personally compliment team members.
 ##### !end-options
 ##### !answer
-* has team members that acknowledge improvements, commend superior work, and personally compliment team members.
+*
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
