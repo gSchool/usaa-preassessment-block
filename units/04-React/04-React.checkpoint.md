@@ -4,27 +4,6 @@
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: multiple-choice
-* id: 55ce4b25-5ace-4fe3-96f8-368eb9f559e5
-* title: What does JSX do?
-##### !question
-JSX allows you to:
-##### !end-question
-##### !options
-* Write smaller components
-* Write HTML in JavaScript
-* Reference other libraries is a simplified format
-##### !end-options
-##### !answer
-Write smaller components
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: short-answer
 * id: e0abc528-13ee-4847-9428-f2d028b7749b
 * title: Adding classes
@@ -39,44 +18,6 @@ When writing a JSX tag, use ______ instead of class to add the class attribute.
 ##### !end-placeholder
 ##### !explanation
 Remember, JavaScript is a case sensitive language so className works but classname or ClassName don't.
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: a6768c32-2f17-41c9-8f92-b33c28dccbc7
-* title: ReactElement
-##### !question
-
-How many ReactElement objects are created by this code?
-
-```javascript
-const isHealthy = false;
-let message;
-
-if (isHealthy) {
-  message = <p>Yuck!</p>;
-}
-else {
-  message = <p>Delicious!</p>;
-}
-
-const element = <div>
-  {message}
-</div>;
-```
-
-##### !end-question
-##### !answer
-2
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
 ##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
@@ -97,52 +38,6 @@ A functional component is a component that:
 ##### !end-options
 ##### !answer
 returns a single React element
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: d9d6a72b-f6c4-4fe1-a590-76032adcd8c4
-* title: Create React components
-##### !question
-Select the steps that are required to create a React component
-##### !end-question
-##### !options
-* Within that React element reference the other component by wrapping it in self-closing HTML tags
-* Define a function that returns a single React element
-* Use JSX to define the component
-* Export the function with export default
-* Import React
-##### !end-options
-##### !answer
-* Define a function that returns a single React element
-* Export the function with export default
-* Import React
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: b75a1f5c-6dac-488d-902b-647eab17681e
-* title: Symbol
-##### !question
-What is the `?` symbol called?
-##### !end-question
-##### !options
-* Unary operator
-* If/Else operator
-* Ternary operator
-##### !end-options
-##### !answer
-Ternary operator
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -246,28 +141,6 @@ Array
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: multiple-choice
-* id: 20ef127d-d4cc-4b1e-97ff-c759d8703eee
-* title: Why map?
-##### !question
-Why do we use the map method in React?
-##### !end-question
-##### !options
-* To filter data before using it
-* To ensure the proper constraints to the data
-* To convert data arrays to JSX arrays
-##### !end-options
-##### !answer
-To convert data arrays to JSX arrays
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: checkbox
 * id: cdd8dd36-ce52-4a03-9740-bc3ea130142d
 * title: Characteristics of a Class component
@@ -285,90 +158,6 @@ Which characteristics are attributable to Class components?
 * A JavaScript class that extends React.Component
 * Has a render method
 * Returns a single React Element
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 049cf0ef-c6aa-4769-9e76-9462e712d22c
-* title: Equivalent components?
-##### !question
-These components are equivalent.
-
-```javascript
-const MessageComponent = ({ message }) => (
-  <div>The message is { message }</div>
-)
-```
-
-```javascript
-import React from 'react'
-
-class ColorComponent extends React.Component {
-  render() {
-    return (
-      <div>The message is { this.props.message }</div>
-    )
-  }
-
-}
-```
-
-##### !end-question
-##### !options
-* True
-* False
-##### !end-options
-##### !answer
-True
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 0e7e7966-7070-4eab-a799-cd6fd38a606f
-* title: Connecting state and presentation
-##### !question
-__________ refers to the process of establishing a connection between a user interface's state and presentation.
-##### !end-question
-##### !answer
-/(data binding)/i
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 595b1a8f-fb7b-490f-8a58-82eefc38ddbc
-* title: What is state?
-##### !question
-State in a React component is:
-##### !end-question
-##### !options
-* only available in function components
-* an object
-* ignored by the render method
-* used by React classes
-* never altered directly
-* how you pass data from parent components to child components
-* a functional pattern
-##### !end-options
-##### !answer
-* an object
-* used by React classes
-* never altered directly
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -508,30 +297,6 @@ this.setState(prevState => ({message: "Hello Galvanize!"}));
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: checkbox
-* id: 50d34a56-7b03-4985-9d8b-e84e05c1b8db
-* title: Common steps for wiring up a form
-##### !question
-What are the steps commonly used to wire up a form in a react component?
-##### !end-question
-##### !options
-* Split the form controls into their own separate child components
-* Leverage the Redux library to handle all state management of the form
-* Add change handlers to the form controls that set internal state of the component
-* Add a change handler to the form that binds directly to the state object
-* Add handler to the form submit button that uses the state stored in the component
-##### !end-options
-##### !answer
-* Add change handlers to the form controls that set internal state of the component
-* Add handler to the form submit button that uses the state stored in the component
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: multiple-choice
 * id: caba2414-779b-4a68-a3da-b43d76a2db33
 * title: Default submit behavior
@@ -549,91 +314,6 @@ The default behavior when submitting a form is:
 ##### !explanation
 ##### !end-explanation
 ### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: d34fb2cc-c4d0-4533-837e-923b0fdaae33
-* title: setState()
-##### !question
-Calling `setState()` causes React to re-render the component.
-##### !end-question
-##### !options
-* True
-* False
-##### !end-options
-##### !answer
-True
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 586ed452-4032-492f-a2ee-cba8d9723925
-* title: Component that manages state
-##### !question
-A component that manages persisted state is often referred to as:
-##### !end-question
-##### !options
-* A persistence component
-* A parent component
-* A stateless component
-* A stateful component
-##### !end-options
-##### !answer
-* A stateful component
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-
-### !challenge
-* type: multiple-choice
-* id: 01505f97-96f5-47b5-a568-31d5e6184e5e
-* title: Calculations vs. State
-##### !question
-As a general rule:
-##### !end-question
-##### !options
-* If you can store it in state, then compute it first and store the result
-* If it originated as state, then use state again
-* If you can compute it, then compute it
-
-##### !end-options
-##### !answer
-If you can compute it, then compute it
-##### !end-answer
-### !end-challenge
-
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-
-### !challenge
-* type: multiple-choice
-* id: 0aacd3d1-1197-4068-a280-d005b4412c49
-* title: When to use state
-##### !question
-As a general rule:
-##### !end-question
-##### !options
-* Only duplicate state when there are performance issues
-* Never duplicate state
-* Creating state is cheap and should be done whenever possible
-##### !end-options
-##### !answer
-Only duplicate state when there are performance issues
-##### !end-answer
-### !end-challenge
-
 <!--END CHALLENGE-->
 
 ## Fetching Data
@@ -690,25 +370,6 @@ The async keyword requires the ________ keyword to be used in the method.
 ##### !end-options
 ##### !answer
 await
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 7ff3b08e-aa0e-47e6-a1e6-09d1f504c3b0
-* title: Add a spinner
-##### !question
-To use a spinner during an async call when the page already contains data, first set the fetching flag to true, then make the async fetch call, and finally:
-##### !end-question
-##### !options
-* when the fetching call is complete you set the fetching flag back to false
-* you use the `componentDidMount` method to update the state
-* use the then method from the return promise of fetch to call the render method on the component
-##### !end-options
-##### !answer
-when the fetching call is complete you set the fetching flag back to false
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
@@ -782,45 +443,6 @@ When deploying a React client side application to a different domain than the se
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: a1f4c873-83ab-45a2-9717-5a42edbf3631
-* title: Different domains require
-##### !question
-When the client application exists on a different domain from the server side API you must:
-##### !end-question
-##### !options
-* use fully qualified domain names to reference the server side API
-* use environment variable for all API calls
-* use a proxy server to make your server side API calls
-##### !end-options
-##### !answer
-use fully qualified domain names to reference the server side API
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 83b03cbb-9d54-4433-8cc1-42c765555350
-* title: React environment variable prefix
-##### !question
-Environment variables that are used in React applications must be prefixed with:
-##### !end-question
-##### !options
-* REACT_APP_
-* reactApp
-* ReactApp
-* _React_App_
-##### !end-options
-##### !answer
-REACT_APP_
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
 * id: a5449fe7-3a99-4465-98d2-b7e9f25245f7
 * title: React proxy server
 ##### !question
@@ -837,30 +459,12 @@ Node will pass the request to the API server
 ### !end-challenge
 <!--END CHALLENGE-->
 
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 2e16e3e3-58b1-427c-baad-b47791d92951
-* title: React making direct call?
-##### !question
-When the proxy is enabled in a React application, the React application will make a direct call to the server side API.
-##### !end-question
-##### !options
-* True
-* False
-##### !end-options
-##### !answer
-False
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
 ## Redux
 
 ### !challenge
 * type: multiple-choice
 * id: f97f7eab-4c10-47be-b045-cef6f987d718
-* title: Reducer Review 1
+* title: Reducer Review
 ##### !question
 What are the two parameters (not necessarily in order) that the reducer function will accept?
 ##### !end-question
@@ -877,26 +481,8 @@ What are the two parameters (not necessarily in order) that the reducer function
 
 ### !challenge
 * type: multiple-choice
-* id: a9476049-93d5-4b65-8544-e80acce546e0
-* title: Reducer Review 2
-##### !question
-When the app is initially started, which case in the reducer function's switch statement will run?
-##### !end-question
-##### !options
-* `default`
-* `initialState`
-* `state`
-* `action`
-##### !end-options
-##### !answer
-`default`
-##### !end-answer
-### !end-challenge
-
-### !challenge
-* type: multiple-choice
 * id: 4ebcc152-7c15-41d2-8c1c-1d0a61183c59
-* title: React-Redux Review 2
+* title: React-Redux Review
 ##### !question
 What does `Provider` not do?
 ##### !end-question
@@ -909,33 +495,7 @@ What does `Provider` not do?
 ##### !answer
 Filters the content to only what the application needs
 ##### !end-answer
-##### !explanation
-Correct! The `Provider` component does NOT filter store data.
-##### !end-explanation
 ### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: e18f28a6-9807-4ee0-88d0-4e37049bbd95
-* title: A store accepts
-##### !question
-A store can accept:
-##### !end-question
-##### !options
-* The reducer
-* Initial state
-* JSX
-* Thunk middleware
-* React component
-##### !end-options
-##### !answer
-* The reducer
-* Initial state
-* Thunk middleware
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -1016,44 +576,6 @@ an action creator
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: dc007e8b-6f45-4a6c-aa4b-d1a19bbcd3b0
-* title: Example #1
-##### !question
-The code below is an example of:
-
-```js
-import thunkMiddleware from 'redux-thunk'
-import { createStore, applyMiddleware } from 'redux'
-import rootReducer from './reducers'
-import logger from 'redux-logger'
-
-const store = createStore(
-  rootReducer,
-  applyMiddleware(
-    thunkMiddleware,
-    logger,
-  )
-)
-
-export default store
-```
-##### !end-question
-##### !options
-* action creator
-* redux store
-* reducer
-* mapStateToProps
-* mapDispatchToProps
-##### !end-options
-##### !answer
-redux store
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
 * id: 656181f4-dfe8-4023-8e6d-8a0ea89e6a52
 * title: Example #2
 ##### !question
@@ -1112,29 +634,6 @@ Redux stores all of the application state in one place, called the _________.
 
 ## React router
 
-### !challenge
-* type: multiple-choice
-* id: f873dee5-65c5-4feb-8c04-7c0a733cffc9
-* title: Which router package is incorrect?
-##### !question
-In the list of router packages below, which is not one of the three main router packages
-##### !end-question
-##### !options
-
-* `react-router-native`
-* `react-router`
-* `react-router-mobile`
-* `react-router-dom`
-
-##### !end-options
-##### !answer
-`react-router-mobile`
-##### !end-answer
-##### !explanation
-Correct! There is no package called `react-router-mobile`
-##### !end-explanation
-### !end-challenge
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
@@ -1159,71 +658,6 @@ When making an HTTP request to a server the following things happen:
 ### !end-challenge
 <!--END CHALLENGE-->
 
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: da1ba557-7bdc-4bd5-9e87-bc8e55fe3c10
-* title: URL with a hash
-##### !question
-When loading a URL that contains a hash, the server will:
-##### !end-question
-##### !options
-* Gets the full path including what comes after the hash
-* Sometimes get the same path depending on what comes after the hash
-* Always get the same path regardless of what comes after the hash
-* Interprets the path differently based on a query string
-##### !end-options
-##### !answer
-Always get the same path regardless of what comes after the hash
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-### !challenge
-* type: multiple-choice
-* id: 3e190c96-ad82-435f-8558-52c018fa0e78
-* title: BrowserRouter vs. HashRouter
-##### !question
-True or false: `HashRouter` is the best option if you have a server that will handle dynamic requests.
-##### !end-question
-##### !options
-
-* true
-* false
-
-##### !end-options
-##### !answer
-false
-##### !end-answer
-##### !explanation
-That's correct. `HashRouter` should be primarily used for static website that only serves files it knows about. `BrowserRouter` would be the better option in this case.
-##### !end-explanation
-### !end-challenge
-
-### !challenge
-* type: multiple-choice
-* id: 7f1ec1d7-f1f2-4551-96bd-b4ab06b089f9
-* title: Where does React Router get the hash portion of the url from?
-##### !question
-For the `HashRouter` to work, it needs access to the hash portion of the url. Where does that come from?
-##### !end-question
-##### !options
-
-* `window.location.hashes`
-* `window.history.hash`
-* `window.match.hash`
-* `window.location.hash`
-* `window.history.hashes`
-
-##### !end-options
-##### !answer
-`window.location.hash`
-##### !end-answer
-##### !explanation
-Correct! `window.location.hash` is where the `HashRouter` gets the hash portion of the url from.
-##### !end-explanation
-### !end-challenge
-
 ### !challenge
 * type: multiple-choice
 * id: 7320a7ff-e55c-4643-9a0e-b96058774f9a
@@ -1242,9 +676,6 @@ If you were to navigate to `/example/1/things`, which of these routes would rend
 ##### !answer
 None of the above
 ##### !end-answer
-##### !explanation
-That's correct! None of the above. For any of those to render, the url would have to match the path exactly.
-##### !end-explanation
 ### !end-challenge
 
 ### !challenge
@@ -1261,52 +692,7 @@ True or False: The `Switch` statement can render more than one `Route` component
 ##### !answer
 False
 ##### !end-answer
-##### !explanation
-Correct! The `Switch` component will only render one `Route` component at a time.
-##### !end-explanation
 ### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: c9fc0096-706f-469d-b75f-09c86e9f8bfe
-* title: Navigating routes
-##### !question
-What are the ways that React-Router can navigate routes?
-##### !end-question
-##### !options
-* Query parameters
-* Hash references
-* Link components
-* Using history methods
-##### !end-options
-##### !answer
-* Link components
-* Using history methods
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: e4adfcd7-224d-44f7-80f4-877f33ec66be
-* title: Redirect method
-##### !question
-Which method on the history API will redirect the user to another route?
-##### !end-question
-##### !answer
-/(push)
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
 
 <!--BEGIN CHALLENGE-->
 ### !challenge

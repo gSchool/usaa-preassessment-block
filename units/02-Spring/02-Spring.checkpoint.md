@@ -1,73 +1,5 @@
 # Spring Skills Assessment
 
-## Intro to Spring
-
-### !challenge
-* type: multiple-choice
-* id: 2242e778-b2d5-43f1-9726-fb5c542ec521
-* title: Spring vs Spring Boot 1
-##### !question
-Which one would allow you to have your app auto-restart during development?
-##### !end-question
-##### !options
-* Spring
-* Spring Boot
-##### !end-options
-##### !answer
-Spring Boot
-##### !end-answer
-### !end-challenge
-
-### !challenge
-* type: multiple-choice
-* id: 1167b4a3-c2a5-4bdc-8d7a-796688b33e52
-* title: Spring vs Spring Boot 3
-
-##### !question
-Which one provides the IoC container?
-##### !end-question
-
-##### !options
-* Spring
-* Spring Boot
-##### !end-options
-
-##### !answer
-Spring
-##### !end-answer
-### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 4e2b0fd0-18dc-45a7-ba29-4272b0901de2
-* title: Steps for getting started
-##### !question
-The steps to create, start, and verify a Spring Boot application is working are:
-##### !end-question
-##### !options
-* Build and run the project
-* Check your app with curl
-* Visit http://start.spring.io/
-* Install IntelliJ
-* Create an account with spring initializr
-* Select the dependencies you need on spring initializr
-* Click "Generate Project" on spring initializr
-* Unzip the project and cd into it
-##### !end-options
-##### !answer
-* Visit http://start.spring.io/
-* Select the dependencies you need on spring initializr
-* Click "Generate Project" on spring initializr
-* Unzip the project and cd into it
-* Build and run the project
-* Check your app with curl
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
 ## Request and Response
 
 ### !challenge
@@ -135,45 +67,8 @@ load the minimal configuration to test the controller
 
 ### !challenge
 * type: multiple-choice
-* id: 9f9f9ed5-3999-4a22-8124-d9cf4c358b82
-* title: Endpoint Question #1
-##### !question
-Given the following code:
-
-```java
-@RestController
-public class QuestionsController {
-    @PostMapping("/question")
-    public String getQuestion() {
-        return "Nailed it!";
-    }
-}
-```
-
-And the following HTTP request:
-
-```
-GET /question HTTP/1.1
-host: example.com
-```
-
-What will the response be?
-##### !end-question
-##### !options
-- A 200 OK with "Nailed it!" in the body
-- A 404 Not Found
-- A 405 Method Not Allowed
-- A 500 Server Error
-##### !end-options
-##### !answer
-A 405 Method Not Allowed
-##### !end-answer
-### !end-challenge
-
-### !challenge
-* type: multiple-choice
 * id: 05c92ddd-b6ea-48a4-bdce-582da0ece694
-* title: Endpoint Question #3
+* title: Endpoint Question
 ##### !question
 Given the following code:
 
@@ -211,9 +106,9 @@ A 404 Not Found
 ### !challenge
 * type: short-answer
 * id: 476172e9-2071-4f6e-b25f-2a03c636b46f
-* title: Endpoints Question #6
+* title: Endpoints Question
 ##### !question
-Write the `@*Mapping` annotation that would properly handle the following HTTP requests:
+Write the correct `@*Mapping` annotation that would handle both of the following HTTP requests:
 
 ```
 GET /survey/questions HTTP/1.1
@@ -226,7 +121,7 @@ host: example.com
 ```
 ##### !end-question
 ##### !placeholder
-@GetMapping("/foo")
+[Type your answer here]
 ##### !end-placeholder
 ##### !answer
 @RequestMapping("/survey/questions")
@@ -292,54 +187,6 @@ public String getPostForBlog(@PathVariable int blogId, @PathVariable int postId)
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: checkbox
-* id: b2300ba3-b99a-4ab0-8891-3cd529139522
-* title: Testing form data
-##### !question
-When testing form data, make sure to:
-##### !end-question
-##### !options
-* use `post` instead of `get`
-* use `put` instead of `get`
-* add the correct `browserType`
-* add the correct `contentType`
-* add `vars`
-* add `param`s
-##### !end-options
-##### !answer
-* use `post` instead of `get`
-* add the correct `contentType`
-* add `param`s
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: c892eb59-6da8-47cd-95ae-f0e13a36995e
-* title: Access request body
-##### !question
-What are the different ways you can access the request body?
-##### !end-question
-##### !options
-* As a String
-* As an array
-* As a HashMap of form params
-* As a custom class
-##### !end-options
-##### !answer
-* As a String
-* As a HashMap of form params
-* As a custom class
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: multiple-choice
 * id: 8edce170-a1d0-4a7f-9a42-ccc2720098cd
 * title: Custom class parameter
@@ -363,7 +210,7 @@ Which annotation is used to pass the body of a request to a custom class paramet
 ### !challenge
 * type: multiple-choice
 * id: 03d768c6-5b7d-4f8e-a90a-eadadb5529dd
-* title: HTTP Annotations 2
+* title: HTTP Annotations
 ##### !question
 Which annotation would you use to access the part of the HTTP request indicated by `^^^`?
 
@@ -384,34 +231,6 @@ Content-Type: application/json
 ##### !end-options
 ##### !answer
 @RequestHeader
-##### !end-answer
-### !end-challenge
-
-### !challenge
-* type: multiple-choice
-* id: ef3f0775-d57d-4b4e-a978-0c9cf030ec62
-* title: HTTP Annotations 3
-##### !question
-Which annotation would you use to access the part of the HTTP request indicated by `^^^`?
-
-```
-GET /people/32/addresses?filter=active HTTP/1.1
-                                ^^^^^^
-Host: example.com
-Accept: application/json
-Content-Type: application/json
-```
-
-##### !end-question
-##### !options
-* @RequestParam
-* @RequestBody
-* @PathVariable
-* @RequestCookie
-* @RequestHeader
-##### !end-options
-##### !answer
-@RequestParam
 ##### !end-answer
 ### !end-challenge
 
@@ -494,63 +313,6 @@ D
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: multiple-choice
-* id: 0e5c4381-61cf-48ee-b0ea-124266f24ae0
-* title: Automatic serialization?
-##### !question
-If you use the `@RequestMapping` annotation on your Controller class, all you need to do is return an object from your route method, and Spring will automatically serialize it to JSON for you.
-##### !end-question
-##### !options
-* True
-* False
-##### !end-options
-##### !answer
-True
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 7bfbf4ae-7361-4966-b0c2-31c0a8242587
-* title: JSON and class property names
-##### !question
-JSON property names must match their class property name counterparts in order to be converted.
-##### !end-question
-##### !options
-* True
-* False
-##### !end-options
-##### !answer
-False
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: d015d3b5-5aaa-4064-bef7-6e801bfe4cc4
-* title: What does JSON stand for?
-##### !question
-JSON stands for:
-##### !end-question
-##### !answer
-/(java.*script.*object.*notation)/i
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: checkbox
 * id: 00ed2e82-87a8-494e-882c-709c31db8dc6
 * title: JSON represents
@@ -626,44 +388,6 @@ Which symbol(s) are used to define arrays in JSON?
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: short-answer
-* id: a2f2ad40-779f-4fad-baec-6ed1b858bf35
-* title: Overriding property names
-##### !question
-What is the annotation used to override the default name of a property when converting a Java object to JSON?
-##### !end-question
-##### !answer
-/(JsonProperty)
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 4d2339fd-96c0-4497-b6df-77fd62a474f2
-* title: Fill the mock object body
-##### !question
-Use the ________ method to set the content type of a mock request.
-##### !end-question
-##### !answer
-/(contentType)
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: checkbox
 * id: 749ce5bc-5b20-4c4b-82cc-9536089a292a
 * title: Accessing JSON data
@@ -732,25 +456,6 @@ For Jackson to work with immutable objects you must:
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: short-answer
-* id: 377ff93a-f81e-45c5-9c7d-9dd4b165e5fd
-* title: Annotation for views
-##### !question
-In your controller methods, you can indicate which view you'd like to use with the ________ annotation.
-##### !end-question
-##### !answer
-/(JsonView)
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: multiple-choice
 * id: 4d676fda-7e9d-4e0f-be84-f9e75bce922e
 * title: Which error?
@@ -772,51 +477,6 @@ If the `Content-Type` header is not set correctly you may get a:
 <!--END CHALLENGE-->
 
 ## CRUD APIs
-
-### !challenge
-* type: short-answer
-* id: 033a86e1-938e-4285-8a46-dab7eb042b3f
-* title: MySQL Connect CL
-##### !question
-How would you connect to a database named "husky" with a user named "collie" from the command line?
-
-Assume there is no password required.
-##### !end-question
-##### !answer
-/mysql -u *collie husky/
-##### !end-answer
-##### !placeholder
-mysql...
-##### !end-placeholder
-### !end-challenge
-
-### !challenge
-* type: short-answer
-* id: cfdbd336-a31f-441b-99a0-90afed85d40d
-* title: MySQL REPL Describe
-##### !question
-From within the `mysql` REPL, how would you list all columns from the `books` table?
-
-> NOTE: don't forget the semi-colon
-##### !end-question
-##### !answer
-/desc(ribe)? books;/
-##### !end-answer
-##### !placeholder
-##### !end-placeholder
-### !end-challenge
-
-### !challenge
-* type: short-answer
-* id: 51e6c898-af69-4266-8831-4f7ac942f4af
-* title: MySQL File
-##### !question
-How would you run a file named `init.sql` as root on a database named `inventory`?
-##### !end-question
-##### !answer
-/mysql -u *root inventory \< init\.sql/
-##### !end-answer
-### !end-challenge
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -910,37 +570,6 @@ compile('org.galvanize.cloud:wine-glass')
 ### !end-challenge
 <!--END CHALLENGE-->
 
-### !challenge
-* type: multiple-choice
-* id: 8831adb8-0dad-4884-9680-7dcf91f40e27
-* title: Config Order
-##### !question
-### Who wins?
-Given the following `application.properties` file:
-
-```
-service.apiToken=123
-```
-
-And your app has been run with:
-
-```
-SPRING_APPLICATION_JSON='{"service":{"apiToken":"abc"}}' ./gradlew bootRun
-```
-
-What will the value of the `service.apiToken` be in the app?
-##### !end-question
-##### !options
-* 123
-* abc
-* 123abc
-* abc123
-##### !end-options
-##### !answer
-abc
-##### !end-answer
-### !end-challenge
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
@@ -1006,27 +635,19 @@ Puts an instantiated class that implements the interface into an application con
 * type: multiple-choice
 * id: 2ba12145-b309-4b2e-af40-0bfdc1d587a4
 * title: DDL-AUTO Prod
-
 ##### !question
 ### Which is best?
-
 Which ddl-auto setting is most appropriate for production?
 ##### !end-question
-
 ##### !options
 * create
 * create-drop
 * validate
 * update
 ##### !end-options
-
 ##### !answer
 validate
 ##### !end-answer
-
-##### !explanation
-If "none" were an option, that could work too
-##### !end-explanation
 ### !end-challenge
 
 <!--BEGIN CHALLENGE-->
@@ -1039,23 +660,6 @@ The ________ function on a JPA repository will update a record on the database.
 ##### !end-question
 ##### !answer
 /(save)
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 85ae4120-c299-4f8d-811d-1f92a3056423
-* title: Executing native queries
-##### !question
-The ________ annotation enables JPA to execute native queries when the simpler queries aren't enough.
-##### !end-question
-##### !answer
-/(Query)
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -1102,7 +706,7 @@ public interface AddressRepository extends CrudRepository<Address,Long> {
 ### !challenge
 * type: multiple-choice
 * id: 914ee522-9d16-49bf-9a1c-763fc4de2b6f
-* title: Example code #1
+* title: Example code
 ##### !question
 The code below is an example of:
 
@@ -1215,46 +819,10 @@ Select the annotations that cause an instance of the class to be added to the ap
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: eb79b0e2-745c-4514-9390-88ef9671ea18
-* title: @Autowired fields
-##### !question
-Fields that are `@Autowired` must be public in order to get their dependency.
-##### !end-question
-##### !options
-* True
-* False
-##### !end-options
-##### !answer
-False
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 789d7bcc-4b58-4ea6-80cb-9a57bbfe7640
-* title: @Autowired final fields
-##### !question
-`@Autowired` fields can be marked as final.
-##### !end-question
-##### !options
-* True
-* False
-##### !end-options
-##### !answer
-False
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
 * id: 0805de50-d77e-454f-a9f7-07a279c499cb
 * title: @Bean annotation instances
 ##### !question
-By default every instance created by the `@Bean` annotation is a(n) instance:
+By default every instance created by the `@Bean` annotation is a(n) _________ instance.
 ##### !end-question
 ##### !options
 * Transient
@@ -1339,71 +907,6 @@ Rest Templates are responsible for:
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: multiple-choice
-* id: 17962ada-23ee-43df-823e-c868886ae642
-* title: Body of a response
-##### !question
-Use the ________ method to get the contents of the body of a ResponseEntity.
-##### !end-question
-##### !options
-* `body()`
-* `content()`
-* `getBody()`
-* `getContent()`
-##### !end-options
-##### !answer
-`getBody()`
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 23c2ead4-89ba-4589-a1ce-043fde05b4aa
-* title: Using getForObject
-##### !question
-```java
-return this.restTemplate.getForObject("https://api.github.com/zen", String.class);
-```
-
-The code above will:
-##### !end-question
-##### !options
-* Make an HTTP request with the verb POST
-* Make an HTTP request with the verb GET
-* Take the response body as a String and return it
-* Return the status code of the POST request
-##### !end-options
-##### !answer
-* Make an HTTP request with the verb GET
-* Take the response body as a String and return it
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 3dd433a6-bfc1-41b1-b65e-5a4014150fbd
-* title: Deserializing to a generic
-##### !question
-In order to deserialize a response to a generic type:
-##### !end-question
-##### !options
-* Use a custom type that implements the List interface
-* Use the ParameterizedTypeReference type
-* Use the ParseListResponse type
-* Use a custom type that implements the ParsedListResponse interface
-##### !end-options
-##### !answer
-Use the ParameterizedTypeReference type
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: short-answer
 * id: 75d56b12-a4dc-42d7-8106-426238eaca55
 * title: Application.properties file
@@ -1426,48 +929,5 @@ Assuming the code above, what is the name of the property that must be added to 
 ##### !placeholder
 [Type your answer here...]
 ##### !end-placeholder
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 62ac5626-9a3d-475a-ad28-6074b3b9f8b4
-* title: Service class dependency
-##### !question
-The service class depends on a ____________ object in order to make requests to an API.
-##### !end-question
-##### !options
-* RestTemplate
-* Controller
-* Repository
-* Configuration
-##### !end-options
-##### !answer
-RestTemplate
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 6d44121b-bb12-4db9-8066-f2377a1042e4
-* title: Why mock?
-##### !question
-What are the reasons for mocking the API service?
-##### !end-question
-##### !options
-* Test cannot rely on the data being received from an outside API
-* Test could cause rate limits to be reached
-* Tests will be slower due to network limitations
-* Difficult to test edge cases
-##### !end-options
-##### !answer
-* Test cannot rely on the data being received from an outside API
-* Test could cause rate limits to be reached
-* Tests will be slower due to network limitations
-* Difficult to test edge cases
-##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->

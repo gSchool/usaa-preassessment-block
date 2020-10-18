@@ -2,125 +2,14 @@
 
 ## Primitive Types
 
-### !challenge
-
-* type: code-snippet
-* language: javascript
-* id: c8ea5740-07aa-4c06-bd6b-938a581c84a3
-* title: Primitive Types Checkpoint A
-* standard_uuids: WD-DgkEAAUBDwM
-
-### !question
-
-Assign the correct values to the following variables to build a Madlib! For hints (and the final Madlib), check the test output.
-
-### !end-question
-
-### !placeholder
-
-```js
-var madeUpName; // Make sure to include a space. (e.g. 'James Bond')
-var personInPositionOfPower; // a string
-var nationality; // e.g. 'American'
-var countryName;
-var preciousItem;
-var vehicleName;
-var aCelebrity;
-var occupationName;
-var numberA; // a number
-var numberB; // a number
-var adverbA;
-var adverbB;
-var verbBaseForm;
-var verbPastTenseA;
-var verbPastTenseB;
-var verbPastTenseC;
-var verbPastTenseD;
-var adjectiveA;
-var adjectiveB;
-var adjectiveC;
-var color;
-var liquidBeverage;
-var travelRelatedNounPlural;
-var numberLessThanSix; // a number less than six but greater than 0
-var numberBetween1And60; // a number less than 60 but greater than 0
-var partOfBody;
-var partOfBodyPlural;
-```
-
-### !end-placeholder
-
-### !tests
-
-```js
-describe('Madlib Game A', function () {
-  const name = madeUpName.split(' ')
-    .map(el => el[0].toUpperCase() + el.slice(1).toLowerCase())
-    .join(' ')
-  const pseudonym = madeUpName.split(' ')
-    .map(el => el.toLowerCase().split('').reverse().join(''))
-    .map(el => el[0].toUpperCase() + el.slice(1).toLowerCase())
-    .join(' ')
-
-  console.log(`
-    Hello. The name's ${name}.
-
-    I'm ${nationality} at heart, but my ${personInPositionOfPower} has sent me to the Americas before. I noticed ${numberA} things about the Americas. One, they are ambitious. Two, they are ${adverbA} rude. ${numberB}, they are clever enough to ${verbBaseForm} even my tricks and plans. ${adverbB}, I managed to smuggle the ${preciousItem} I needed from the Americas. Now the SISMI has sent me to a desert. Not just any desert.
-
-    The ${countryName} Desert.
-
-    I ${verbPastTenseA} the brick wall as I slid toward the ${adjectiveA} building. My private ${vehicleName} had landed me half a mile away and now I was running into the airport. I noticed a ${color} blur run past at a ${adjectiveB} pace. I ${verbPastTenseB} and quickly turned in my passport and ${travelRelatedNounPlural}. The passport said my name was ${pseudonym}. My disguise.
-
-    Now I was on the plane. To look ${adjectiveC}, I picked up a magazine from the seat pocket in front of me. I pretended to be ${aCelebrity}, and I buried my ${partOfBody} in the pages so that the ${occupationName} next to me would get ${liquidBeverage}. He did, and I chuckled. They fall for it every time.
-
-    I put down the magazine. The ${occupationName} next to me with the bowler hat was asleep. ${liquidBeverage} dripped from the corner of his mouth. I cringed and ${verbPastTenseC} my watch. ${numberLessThanSix} 'til six. I had an hour and ${numberBetween1And60} minutes until my landing. I laid back and closed my ${partOfBodyPlural}. An hour. I chuckled again and ${verbPastTenseD} in my seat. My adventure was already unraveling.`
-  )
-
-  it('should appropriately assign values to variables', function () {
-    const err = `You must assign values to all of the above variables.`
-    const values = [madeUpName, personInPositionOfPower, nationality, countryName, preciousItem, vehicleName, aCelebrity, occupationName, numberA, numberB, adverbA, adverbB, verbBaseForm, verbPastTenseA, verbPastTenseB, verbPastTenseC, verbPastTenseD, adjectiveA, adjectiveB, adjectiveC, color, liquidBeverage, travelRelatedNounPlural, numberLessThanSix, numberBetween1And60, partOfBody, partOfBodyPlural]
-
-    values.forEach(value => expect(typeof value, err).to.not.be.undefined)
-  })
-
-  it('should have a complete madeUpName', function () {
-    const err = `Your madeUpName must include at least one space.`
-    expect(madeUpName.split(' ').length, err).to.be.above(1)
-  })
-
-  it('should have numbers where specified', function () {
-    const err = `The following variables must be numbers: numberA, numberB, numberLessThanSix, numberBetween1And60`
-    const values = [numberA, numberB, numberLessThanSix, numberBetween1And60]
-
-    values.forEach(value => expect(value, err).to.be.a('number'))
-  })
-
-  it('numberLessThanSix and numberBetween1And60 should fit their constraints', function () {
-    expect(numberLessThanSix, `numberLessThanSix should be less than six but greater than 0`).to.be.above(0)
-    expect(numberLessThanSix, `numberLessThanSix should be less than six but greater than 0`).to.be.below(6)
-
-    expect(numberBetween1And60, `numberBetween1And60 should be less than sixty but greater than one`).to.be.above(0)
-    expect(numberBetween1And60, `numberBetween1And60 should be less than sixty but greater than one`).to.be.below(60)
-  })
-})
-```
-
-### !end-tests
-
-### !end-challenge
-
 <!-- Question -->
-
 ### !challenge
-
 * type: code-snippet
 * language: javascript
 * id: c310d502-9c87-4e42-a989-686e0cf5f465
 * title: Primitive Types Checkpoint B
 * standard_uuids: WD-DgkEAAUBDwM
-
 ### !question
-
 Assign the variables to values so that the following statements evaluate as described:
 
 ```js
@@ -133,11 +22,8 @@ Assign the variables to values so that the following statements evaluate as desc
 // Expression C
 m[n].length + n === 1 // resolves to true
 ```
-
 ### !end-question
-
 ### !placeholder
-
 ```js
 var a;
 var b;
@@ -148,9 +34,7 @@ var x;
 var y;
 var z;
 ```
-
 ### !end-placeholder
-
 ### !tests
 
 ```js
@@ -173,25 +57,19 @@ describe('Complex Comparisons', function () {
   })
 })
 ```
-
 ### !end-tests
-
 ### !end-challenge
 
 ## Data Structures
 
 ### !challenge
-
 * type: code-snippet
 * language: javascript
 * id: 68023D2D-9BED-4BA1-965F-C133EA2989FB
 * title: Data Structures Checkpoint
 * standard_uuids: WD-Aw0MCQwHCgs
-
 ### !question
-
-Your friends are ordering some food, so why not use your new found knowledge
-of JavaScript datatypes to structure it? Given the foods, people, and orders
+Your friends are ordering some food.  Given the foods, people, and orders
 arrays, use native array methods to fully populate the orders array.
 
 To start you off, we've shown you how to record Milly is ordering pizza, and ice cream.
@@ -203,11 +81,8 @@ Add the following orders - in this order - to the orders array
 1. George orders sushi
 1. Sally orders steak and sushi
 1. Ken orders steak and ice cream
-
 ### !end-question
-
 ### !placeholder
-
 ```js
 var foods = ['pizza', 'sushi', 'steak', 'ice cream']
 var people = ['Milly', 'George', 'Sally', 'Ken']
@@ -215,11 +90,8 @@ var orders = []
 
 orders.push({ name: people[0], order: [foods[0], foods[3]] })
 ```
-
 ### !end-placeholder
-
 ### !tests
-
 ```js
 describe('orders array', function() {
 
@@ -257,50 +129,6 @@ describe('orders array', function() {
 
 ## Iterations and Conditionals
 
-### !challenge
-
-* type: code-snippet
-* language: javascript
-* id: 52127B66-EEE9-46A3-99B3-6115673CAE36
-* title: Iterations & Conditionals A
-* standard_uuids: WD-Cg8AAgcEAQo
-
-### !question
-
-Write a program that prints the numbers from 1 to 100.
-
-* For multiples of three print “Fizz” instead of the number
-* For the multiples of five print “Buzz” instead of the number
-* For numbers which are multiples of both three and five print “FizzBuzz”
-
-When you are finished, set the done variable to true and we will evaluate
-your work.
-
-### !end-question
-
-### !placeholder
-
-```js
-var done = false
-// your code here
-```
-
-### !end-placeholder
-
-### !tests
-
-```js
-describe('fizzbuzz', function() {
-
-    it("has done set to true", function() {
-      expect(done).to.eq(true)
-    })
-
-})
-```
-
-### !end-tests
-
 ### !end-challenge
 
 <!--BEGIN CHALLENGE-->
@@ -308,7 +136,7 @@ describe('fizzbuzz', function() {
 * type: code-snippet
 * language: javascript
 * id: 233483f6-980b-4f1f-9cef-78d2ee93c3ea
-* title: [A short title]
+* title: Complete the steps
 ### !question
 Complete all of the steps in the comments of this code:
 ### !end-question
@@ -316,7 +144,6 @@ Complete all of the steps in the comments of this code:
 ### !end-setup
 ### !placeholder
 ```js
-
 function question0 (array) {
   // Write a for loop that will print only even numbers from an array:
   // For example: question0([ 5, 20, 11, 42, 2, 19 ]) >> [ 20, 42, 2 ]
@@ -391,15 +218,12 @@ describe('Test results', () => {
 ## Functions
 
 ### !challenge
-
 * type: code-snippet
 * language: javascript
 * id: BB49300F-B507-4CC5-B1A4-C8D40283A1E7
 * title: Functions Checkpoint A
 * standard_uuids: WD-CAYKDAkEDQ4
-
 ### !question
-
 Strings are intense if they end in three or more more ! marks.
 However, having ! marks anywhere but the end makes for a non-intense
 string
@@ -415,20 +239,15 @@ Non-intense strings
 
 Implement the intenseString function below, where it will return true
 when an intense string is passed in, and false otherwise.
-
 ### !end-question
-
 ### !placeholder
 ```js
 function intenseString(str) {
   // your code here
 }
 ```
-
 ### !end-placeholder
-
 ### !tests
-
 ```js
 describe('intenseString', function() {
 
@@ -445,39 +264,28 @@ describe('intenseString', function() {
 
 })
 ```
-
 ### !end-tests
-
 ### !end-challenge
 
 <!-- Question -->
 
 ### !challenge
-
 * type: code-snippet
 * language: javascript
 * id: 69803030-E0EF-46AF-B064-B2D25B81F83D
 * title: Functions Checkpoint Mean
 * standard_uuids: WD-CAYKDAkEDQ4
-
 ### !question
-
 Implement the functions below for [mean](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/a/mean-median-and-mode-review).
-
 ### !end-question
-
 ### !placeholder
-
 ```js
 function mean(numbers) {
   // your code here
 }
 ```
-
 ### !end-placeholder
-
 ### !tests
-
 ```js
 describe('mean function', function() {
 
@@ -487,136 +295,38 @@ describe('mean function', function() {
 
 })
 ```
-
 ### !end-tests
-
 ### !end-challenge
-
 
 ### !challenge
-
-* type: code-snippet
-* language: javascript
-* id: 5D8D2429-0052-45A7-8DF2-22CF44A60A51
-* title: Functions Checkpoint median
-* standard_uuids: WD-CAYKDAkEDQ4
-
-### !question
-
-Implement the functions below for [median](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/a/mean-median-and-mode-review).
-
-### !end-question
-
-### !placeholder
-
-```js
-function median(numbers) {
-  // your code here
-}
-```
-
-### !end-placeholder
-
-### !tests
-
-```js
-describe('median function', function() {
-
-    it("can compute the median of an odd numbered list", function() {
-      expect(median([10, 10, 15, 20, 20])).to.equal(15)
-    })
-    it("can compute the median of an even numbered list", function() {
-      expect(median([10, 10, 15, 20, 20, 21])).to.equal(17.5)
-    })
-
-})
-```
-
-### !end-tests
-
-### !end-challenge
-
-
-### !challenge
-
-* type: code-snippet
-* language: javascript
-* id: 9D977B3B-1C84-4F81-838F-A977D612ED6D
-* title: Functions Checkpoint Mode
-* standard_uuids: WD-CAYKDAkEDQ4
-
-### !question
-
-Implement the functions below for [mode](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/a/mean-median-and-mode-review).
-
-### !end-question
-
-### !placeholder
-
-```js
-function mode(numbers) {
-  // your code here
-}
-```
-
-### !end-placeholder
-
-### !tests
-
-```js
-describe('mean, median, mode functions', function() {
-
-    it("can compute the mode", function() {
-      expect(mode([10, 10, 15, 20])).to.equal(10)
-    })
-
-})
-```
-
-### !end-tests
-
-### !end-challenge
 
 ## Debugging
 
 ### !challenge
-
 * type: multiple-choice
 * id: c703daca-2b8b-49cd-b6af-f2efa771fc5f
 * title: Syntax Errors
-
 ##### !question
-
 Take a look at the following error. Choose the option below that would fix the error.
 
 ![image of a syntax error](./images/syntax-error.png)
-
 ##### !end-question
-
 ##### !options
-
 * `var student = { 'name': 'Summer' 'age': 28 }`
 * `var student === { name: 'Summer' age: 28 }`
 * `var student = { name: 'Summer', age: 28 }`
 * `var student === { name: 'Summer', age: 28 }`
-
 ##### !end-options
-
 ##### !answer
-
 `var student = { name: 'Summer', age: 28 }`
-
 ##### !end-answer
-
 ### !end-challenge
 
 ### !challenge
-
 * type: code-snippet
 * language: javascript
 * id: 1a03a7b3-0065-490a-8b74-9f9d36a5247c
 * title: Wolf Fencing
-
 ### !question
 
 The following code has a couple of bugs! The function will be given a list of products like the following:
@@ -631,11 +341,7 @@ var products = [
 ```
 
 You should be able to give it an ID and it returns the appropriate object. Unfortunately, it's not working at the moment. Use your debugging skills to fix the function and get the tests to pass.
-
-**Note: If you're having a hard time logging within Learn, feel free to copy the function over to a tool like repl.it.**
-
 ### !end-question
-
 ### !placeholder
 
 ```js
@@ -648,11 +354,8 @@ function findById (products, id) {
   }
 }
 ```
-
 ### !end-placeholder
-
 ### !tests
-
 ```js
 describe('findById()', function() {
   it('returns null if the id cannot be found', function () {
@@ -679,30 +382,19 @@ describe('findById()', function() {
 })
 ```
 ### !end-tests
-
-### !explanation
-
-### !end-explanation
-
 ### !end-challenge
 
 ## ES6
 
 ### !challenge
-
 * type: code-snippet
 * language: javascript
 * id: bdb74da8-148d-411c-8417-460b6114b31c
 * title: Convert to ES6
-
 ### !question
-
 The following code currently works... but it's not using ES6 syntax! Convert the code below so that it still works but uses only ES6 features.
-
 ### !end-question
-
 ### !placeholder
-
 ```js
 function petsList (pets) {
   pets = pets || []
@@ -721,11 +413,8 @@ function petListItem (petName, petKind) {
   return '<li class="list-group-item">' + name + ' (' + kind + ')</li>'
 }
 ```
-
 ### !end-placeholder
-
 ### !tests
-
 ```js
 describe('ES6 Checkpoint', function () {
   describe('petListItem()', function () {
@@ -805,7 +494,5 @@ describe('ES6 Checkpoint', function () {
   })
 })
 ```
-
 ### !end-tests
-
 ### !end-challenge

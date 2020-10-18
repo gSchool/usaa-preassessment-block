@@ -64,82 +64,6 @@ Which git command can you use to see a list of change bundles in your local repo
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: checkbox
-* id: 6bfa4e67-8d8b-4f27-9502-ae4670ce44dd
-* title: Track changes
-##### !question
-Which git commands do you use in order to track changes and share your code with others:
-##### !end-question
-##### !options
-* Pull
-* Push
-* Forward
-* Commit
-* Add
-* Include
-* Branch
-* Fork
-* Traverse
-##### !end-options
-##### !answer
-* Add
-* Commit
-* Push
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 057bb719-9667-4bd3-8828-58832a85f094
-* title: See which remote is connected
-##### !question
-Use the `git _____ `command with the `_____` argument to see which remote server the local repository is connected to.
-##### !end-question
-##### !options
-* origin and -h
-* origin and -v
-* remote and -v
-* remote and -h
-##### !end-options
-##### !answer
-remote and -v
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 087f5148-0ef5-4ce1-b872-f6703ca95e5a
-* title: Push changes
-##### !question
-The command to push changes from the local repository to the remote repository requires the following:
-##### !end-question
-##### !options
-* The commit command
-* The push command
-* The commit id
-* The remote name
-* The branch name
-##### !end-options
-##### !answer
-* The push command
-* The remote name
-* The branch name
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: short-answer
 * id: c3b9dc7b-9706-48e7-a7ed-8621875eae87
 * title: Add changes from remote
@@ -152,28 +76,6 @@ The `git _____` command will take changes from the remote repository and add the
 ##### !placeholder
 [Type your answer here...]
 ##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 6acfbd0e-76d9-480a-a54e-47b190da2d5a
-* title: Copies contents
-##### !question
-Git is a _____ version control system because it stores a copy of all the contents from the remote repository to your local repository.
-##### !end-question
-##### !options
-* Opportunistic
-* Pessimistic
-* Distributed
-* Atomistic
-##### !end-options
-##### !answer
-Distributed
-##### !end-answer
 ##### !explanation
 ##### !end-explanation
 ### !end-challenge
@@ -214,50 +116,6 @@ When the commit histories are different between the local and remote branch then
 ##### !end-options
 ##### !answer
 merge commit
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 3a32ad5c-b721-4346-9a02-a80f059131f5
-* title: DAG stands for
-##### !question
-What does DAG stand for?
-##### !end-question
-##### !options
-* Dimensional Acyclic Graph
-* Directed Atopical Graph
-* Dimensional Atopical Graph
-* Directed Acyclic Graph
-##### !end-options
-##### !answer
-Directed Acyclic Graph
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 4ed4530c-01fd-49ff-ba7e-f44d88f25e3f
-* title: Stored in a diff
-##### !question
-A diff stores a reference to it's ______ so that it doesn't have to store entire file content.
-##### !end-question
-##### !options
-* parent commit
-* added and removed source files
-* merges
-* central server location
-##### !end-options
-##### !answer
-parent commit
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -409,45 +267,3 @@ _________ is the process of copying a central repository to your local developme
 ##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: a29865c2-3a28-4ed7-97c8-79641a3d9a46
-* title: Rebasing effects
-##### !question
-Rebasing does the following:
-##### !end-question
-##### !options
-* Removes old commits
-* Merges two branches
-* Allocates a new branch
-* Moves the merge point
-##### !end-options
-##### !answer
-Moves the merge point
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 774aa4a5-5582-41a7-8c72-31e0e91a3b6e
-* title: Command to rebase?
-##### !question
-Use the `git ______ [branch]` to rebase a branch.
-##### !end-question
-##### !answer
-/(rebase)/i
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
