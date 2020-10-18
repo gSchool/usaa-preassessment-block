@@ -1281,41 +1281,42 @@ doIt(5);
 ```
 
 What is the output when `bar` is `5`?
-##### !end-question
-##### !options
-*
- ```
- Done
- Something blew up!
- ```
 
-*
- ```
- Done
- Exception in thread "main" java.lang.ArithmeticException: / by zero
-   at com.galvanize.exceptions.Application.main(Application.java:9)
- foo: 0
- ```
+**A**:
+```text
+Done
+Something blew up!
+```
 
-*
- ```
- Done
- foo: 2
- ```
+**B**:
+```text
+Done
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+  at com.galvanize.exceptions.Application.main(Application.java:9)
+foo: 0
+```
 
-*
- ```
- Done
- Exception in thread "main" java.lang.ArithmeticException: / by zero
-   at com.galvanize.exceptions.Application.main(Application.java:9)
- ```
-##### !end-options
-##### !answer
+**C**:
+```
+Done
+foo: 2
+```
+
+**D**:
 ```
 Done
 Exception in thread "main" java.lang.ArithmeticException: / by zero
   at com.galvanize.exceptions.Application.main(Application.java:9)
 ```
+##### !end-question
+##### !options
+* A
+* B
+* C
+* D
+##### !end-options
+##### !answer
+D
 ##### !end-answer
 ### !end-challenge
 

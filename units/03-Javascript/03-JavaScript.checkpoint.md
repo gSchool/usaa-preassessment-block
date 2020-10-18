@@ -129,8 +129,6 @@ describe('orders array', function() {
 
 ## Iterations and Conditionals
 
-### !end-challenge
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
@@ -297,8 +295,6 @@ describe('mean function', function() {
 ```
 ### !end-tests
 ### !end-challenge
-
-### !challenge
 
 ## Debugging
 
