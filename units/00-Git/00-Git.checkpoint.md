@@ -1,6 +1,6 @@
-# Git Skills Assessment
+# Git Assessment
 
-# Checkpoint
+This assessment is to help determine which courses need to be taken and not an evaluation of your job performance.  If you do not know the answer to the question please do not try to research the answer, just leave it blank.  Guessing on a question or researching the answer could skew the results that help us identify what materials to cover.
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
