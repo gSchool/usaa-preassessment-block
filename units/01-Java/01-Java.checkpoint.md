@@ -594,9 +594,10 @@ Which of the following is a legal instantiation of a new `String` array?
 
 ### !challenge
 * type: code-snippet
-* language: Java
+* language: java
 * id: 8bab92fb-6e00-4014-84ce-8a5446692658
 * title: Basic operations with ArrayLists
+* topics: Java
 ### !question
 For the given method signature, write an implementation that takes an array of strings and returns an `ArrayList` of those strings sorted in alphabetical order.
 ### !end-question
