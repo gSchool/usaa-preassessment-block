@@ -11,6 +11,7 @@ This assessment is to help determine which courses need to be taken and not an e
 * id: c310d502-9c87-4e42-a989-686e0cf5f465
 * title: Primitive Types Checkpoint B
 * standard_uuids: WD-DgkEAAUBDwM
+* topics: JavaScript
 ### !question
 Assign the variables to values so that the following statements evaluate as described:
 
@@ -70,6 +71,7 @@ describe('Complex Comparisons', function () {
 * id: 68023D2D-9BED-4BA1-965F-C133EA2989FB
 * title: Data Structures Checkpoint
 * standard_uuids: WD-Aw0MCQwHCgs
+* topics: JavaScript
 ### !question
 Your friends are ordering some food.  Given the foods, people, and orders
 arrays, use native array methods to fully populate the orders array.
@@ -137,6 +139,7 @@ describe('orders array', function() {
 * language: javascript
 * id: 233483f6-980b-4f1f-9cef-78d2ee93c3ea
 * title: Complete the steps
+* topics: JavaScript
 ### !question
 Complete all of the steps in the comments of this code:
 ### !end-question
@@ -223,6 +226,7 @@ describe('Test results', () => {
 * id: BB49300F-B507-4CC5-B1A4-C8D40283A1E7
 * title: Functions Checkpoint A
 * standard_uuids: WD-CAYKDAkEDQ4
+* topics: JavaScript
 ### !question
 Strings are intense if they end in three or more more ! marks.
 However, having ! marks anywhere but the end makes for a non-intense
@@ -275,6 +279,7 @@ describe('intenseString', function() {
 * id: 69803030-E0EF-46AF-B064-B2D25B81F83D
 * title: Functions Checkpoint Mean
 * standard_uuids: WD-CAYKDAkEDQ4
+* topics: JavaScript
 ### !question
 Implement the functions below for [mean](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/a/mean-median-and-mode-review).
 ### !end-question
@@ -304,6 +309,7 @@ describe('mean function', function() {
 * type: multiple-choice
 * id: c703daca-2b8b-49cd-b6af-f2efa771fc5f
 * title: Syntax Errors
+* topics: JavaScript
 ##### !question
 Take a look at the following error. Choose the option below that would fix the error.
 
@@ -325,6 +331,7 @@ Take a look at the following error. Choose the option below that would fix the e
 * language: javascript
 * id: 1a03a7b3-0065-490a-8b74-9f9d36a5247c
 * title: Wolf Fencing
+* topics: JavaScript
 ### !question
 
 The following code has a couple of bugs! The function will be given a list of products like the following:
@@ -389,6 +396,7 @@ describe('findById()', function() {
 * language: javascript
 * id: bdb74da8-148d-411c-8417-460b6114b31c
 * title: Convert to ES6
+* topics: JavaScript
 ### !question
 The following code currently works... but it's not using ES6 syntax! Convert the code below so that it still works but uses only ES6 features.
 ### !end-question

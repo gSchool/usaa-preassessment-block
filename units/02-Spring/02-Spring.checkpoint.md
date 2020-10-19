@@ -8,6 +8,7 @@ This assessment is to help determine which courses need to be taken and not an e
 * type: short-answer
 * id: be3750fb-34d7-4ef1-a770-263a16495013
 * title: Hash
+* topics: Spring
 ##### !question
 What is the path of this URL?
 
@@ -28,6 +29,7 @@ Enter the path
 * type: checkbox
 * id: 550b76f3-77db-4aa1-b5b2-8d2ca09af53b
 * title: Steps for running spring mvc tests
+* topics: Spring
 ##### !question
 Which steps must you take to set up a test class for running spring mvc tests?
 ##### !end-question
@@ -51,6 +53,7 @@ Which steps must you take to set up a test class for running spring mvc tests?
 * type: multiple-choice
 * id: 80960193-df86-43b1-b76e-99171d0f2862
 * title: WebMvcTest annotation
+* topics: Spring
 ##### !question
 The `@WebMvcTest` annotation tells Spring:
 ##### !end-question
@@ -71,6 +74,7 @@ load the minimal configuration to test the controller
 * type: multiple-choice
 * id: 05c92ddd-b6ea-48a4-bdce-582da0ece694
 * title: Endpoint Question
+* topics: Spring
 ##### !question
 Given the following code:
 
@@ -133,7 +137,8 @@ host: example.com
 ### !challenge
 * type: multiple-choice
 * id: 1d150a3e-dc88-47c2-aef4-dd73420bf822
-* title: Querystring Question #1
+* title: Querystring Question
+* topics: Spring
 ##### !question
 ## Question #1
 Which technique would be the most appropriate for the following scenario?
@@ -160,6 +165,7 @@ Defining a method with a `Map<String,String>` parameter
 * type: short-answer
 * id: 2780f64f-d708-4529-adce-839ac64be274
 * title: GET request
+* topics: Spring
 ##### !question
 If the following GET request is being made to the API:
 
@@ -192,6 +198,7 @@ public String getPostForBlog(@PathVariable int blogId, @PathVariable int postId)
 * type: multiple-choice
 * id: 8edce170-a1d0-4a7f-9a42-ccc2720098cd
 * title: Custom class parameter
+* topics: Spring
 ##### !question
 Which annotation is used to pass the body of a request to a custom class parameter?
 ##### !end-question
@@ -213,6 +220,7 @@ Which annotation is used to pass the body of a request to a custom class paramet
 * type: multiple-choice
 * id: 03d768c6-5b7d-4f8e-a90a-eadadb5529dd
 * title: HTTP Annotations
+* topics: Spring
 ##### !question
 Which annotation would you use to access the part of the HTTP request indicated by `^^^`?
 
@@ -243,6 +251,7 @@ Content-Type: application/json
 * type: multiple-choice
 * id: 5fd41069-6ced-4932-b548-84b429c8835f
 * title: Using jsonPath
+* topics: Spring
 ##### !question
 Which of these is a valid test that uses jsonPath?
 
@@ -318,6 +327,7 @@ D
 * type: checkbox
 * id: 00ed2e82-87a8-494e-882c-709c31db8dc6
 * title: JSON represents
+* topics: Spring, JSON
 ##### !question
 JSON can represent:
 ##### !end-question
@@ -347,6 +357,7 @@ JSON can represent:
 * type: multiple-choice
 * id: 6887760f-e3ca-4daa-aa89-48154aa535a3
 * title: Separating properties from values
+* topics: Spring, JSON
 ##### !question
 Which symbol(s) are used to separate properties from values in JSON?
 ##### !end-question
@@ -370,6 +381,7 @@ Which symbol(s) are used to separate properties from values in JSON?
 * type: multiple-choice
 * id: 681fac04-09b6-45fc-a57b-66ced874b044
 * title: Defining arrays
+* topics: Spring, JSON
 ##### !question
 Which symbol(s) are used to define arrays in JSON?
 ##### !end-question
@@ -393,6 +405,7 @@ Which symbol(s) are used to define arrays in JSON?
 * type: checkbox
 * id: 749ce5bc-5b20-4c4b-82cc-9536089a292a
 * title: Accessing JSON data
+* topics: Spring
 ##### !question
 What steps are necessary to access JSON data in a REST Controller?
 ##### !end-question
@@ -414,6 +427,7 @@ What steps are necessary to access JSON data in a REST Controller?
 * type: checkbox
 * id: bb00589b-675a-4b8c-9023-0f185b01a6be
 * title: Immutable classes
+* topics: Java
 ##### !question
 Immutable classes have:
 ##### !end-question
@@ -438,6 +452,7 @@ Immutable classes have:
 * type: checkbox
 * id: 70d9d311-f5c7-462d-bb77-40bdd3626770
 * title: Immutable with Jackson
+* topics: Spring
 ##### !question
 For Jackson to work with immutable objects you must:
 ##### !end-question
@@ -461,6 +476,7 @@ For Jackson to work with immutable objects you must:
 * type: multiple-choice
 * id: 4d676fda-7e9d-4e0f-be84-f9e75bce922e
 * title: Which error?
+* topics: Spring
 ##### !question
 If the `Content-Type` header is not set correctly you may get a:
 ##### !end-question
@@ -485,6 +501,7 @@ If the `Content-Type` header is not set correctly you may get a:
 * type: multiple-choice
 * id: 2e38ac7a-8cfa-4c80-9f9a-e25887259610
 * title: JPA meaning
+* topics: Spring
 ##### !question
 JPA stands for:
 ##### !end-question
@@ -504,6 +521,7 @@ Java Persistence API
 * type: short-answer
 * id: 07326d1d-2c75-4e20-b148-f73eb7c4595b
 * title: Connection string property
+* topics: Spring
 ##### !question
 What is the property in the `application.properties` file that specifies the connection string to the database?
 ##### !end-question
@@ -523,6 +541,7 @@ What is the property in the `application.properties` file that specifies the con
 * type: checkbox
 * id: 3eb4412a-ce3e-401c-8320-8ae002ccecc6
 * title: Primary key field
+* topics: Spring
 ##### !question
 Which annotations should be added to the primary key field of an entity?
 ##### !end-question
@@ -548,6 +567,7 @@ Which annotations should be added to the primary key field of an entity?
 * type: multiple-choice
 * id: d85798d8-f8c2-4f63-9c5a-3a3042531dce
 * title: Add dependency to build.gradle
+* topics: Gradle
 ##### !question
 Given the following artifact information, which line should be added to the dependencies section of the `build.gradle` file to add this artifact as a dependency?
 
@@ -577,6 +597,7 @@ compile('org.galvanize.cloud:wine-glass')
 * type: multiple-choice
 * id: 1e8006fd-e5ec-42d8-a02c-844a0e34dda0
 * title: JPA repositories
+* topics: Spring
 ##### !question
 JPA repositories are:
 ##### !end-question
@@ -598,6 +619,7 @@ Interfaces
 * type: multiple-choice
 * id: 9c33a7c3-48f2-4a1b-a2db-504cebfb6b36
 * title: Second JPA repository type parameter
+* topics: Spring
 ##### !question
 The second type parameter of a JPA repository is for:
 ##### !end-question
@@ -618,6 +640,7 @@ setting the primary key type
 * type: multiple-choice
 * id: 0486af4d-a5d1-4666-8a61-8f9bd2fe16bb
 * title: JPA repository discovery
+* topics: Spring
 ##### !question
 When Spring data JPA discovers an interface that extends CrudRepository it will:
 ##### !end-question
@@ -637,6 +660,7 @@ Puts an instantiated class that implements the interface into an application con
 * type: multiple-choice
 * id: 2ba12145-b309-4b2e-af40-0bfdc1d587a4
 * title: DDL-AUTO Prod
+* topics: Spring
 ##### !question
 ### Which is best?
 Which ddl-auto setting is most appropriate for production?
@@ -657,6 +681,7 @@ validate
 * type: short-answer
 * id: a178142a-71a7-4bad-b70d-60c0e2030d0d
 * title: Updating records with JPA
+* topics: Spring
 ##### !question
 The ________ function on a JPA repository will update a record on the database.
 ##### !end-question
@@ -674,6 +699,7 @@ The ________ function on a JPA repository will update a record on the database.
 * type: short-answer
 * id: 5901c4fa-d80b-4d7b-825d-0d1d6f75a192
 * title: Return list of addresses based on city
+* topics: Spring
 ##### !question
 Assume there is a table called Addresses with the following field names:
 
@@ -709,6 +735,7 @@ public interface AddressRepository extends CrudRepository<Address,Long> {
 * type: multiple-choice
 * id: 914ee522-9d16-49bf-9a1c-763fc4de2b6f
 * title: Example code
+* topics: Spring
 ##### !question
 The code below is an example of:
 
@@ -750,7 +777,8 @@ Hard coded dependency
 ### !challenge
 * type: multiple-choice
 * id: d2d2ea7a-2313-4adf-ab1b-95d829d184d7
-* title: Example code #2
+* title: Example code
+* topics: Spring
 ##### !question
 The code below is an example of:
 
@@ -798,6 +826,7 @@ Constructor injection
 * type: checkbox
 * id: 8f479d3f-91df-40b3-8ec7-f3c725d1ff6b
 * title: Add to application context
+* topics: Spring
 ##### !question
 Select the annotations that cause an instance of the class to be added to the application context.
 ##### !end-question
@@ -823,6 +852,7 @@ Select the annotations that cause an instance of the class to be added to the ap
 * type: multiple-choice
 * id: 0805de50-d77e-454f-a9f7-07a279c499cb
 * title: @Bean annotation instances
+* topics: Spring
 ##### !question
 By default every instance created by the `@Bean` annotation is a(n) _________ instance.
 ##### !end-question
@@ -843,6 +873,7 @@ Singleton
 * type: short-answer
 * id: e772dd0c-4537-4ad1-8b0f-ec8a1a12e8d1
 * title: Mocking a bean inside a test
+* topics: Spring
 ##### !question
 In order to isolate a test to just a controller, you can use the `@WebMvcTest` annotation on the test class and _________ to mock an autowired service class.
 ##### !end-question
@@ -857,6 +888,7 @@ In order to isolate a test to just a controller, you can use the `@WebMvcTest` a
 * type: short-answer
 * id: 5661f1b3-ce7a-4f06-b3d1-9eee1fbfddbf
 * title: Annotation for gathering configuration settings
+* topics: Spring
 ##### !question
 Add the ________ annotation to a class to fill it with configuration settings?
 ##### !end-question
@@ -871,6 +903,7 @@ Add the ________ annotation to a class to fill it with configuration settings?
 * type: short-answer
 * id: a2b25a9d-f8c8-4109-b095-a13cb797aeec
 * title: Spring actuator information route
+* topics: Spring
 ##### !question
 With Spring actuator installed, which route must you navigate to in order to view information on memory, processors, uptime, and other metrics about your app and system?
 ##### !end-question
@@ -890,6 +923,7 @@ With Spring actuator installed, which route must you navigate to in order to vie
 * type: checkbox
 * id: af8f7748-cf71-41eb-80c4-e36f81e170f1
 * title: Rest Templates are responsible for
+* topics: Spring
 ##### !question
 Rest Templates are responsible for:
 ##### !end-question
@@ -912,6 +946,7 @@ Rest Templates are responsible for:
 * type: short-answer
 * id: 75d56b12-a4dc-42d7-8106-426238eaca55
 * title: Application.properties file
+* topics: Spring
 ##### !question
 ```java
 @ConfigurationProperties("blogService")

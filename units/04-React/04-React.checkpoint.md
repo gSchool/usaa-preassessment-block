@@ -9,6 +9,7 @@ This assessment is to help determine which courses need to be taken and not an e
 * type: short-answer
 * id: e0abc528-13ee-4847-9428-f2d028b7749b
 * title: Adding classes
+* topics: React
 ##### !question
 When writing a JSX tag, use ______ instead of class to add the class attribute.
 ##### !end-question
@@ -29,6 +30,7 @@ Remember, JavaScript is a case sensitive language so className works but classna
 * type: multiple-choice
 * id: 6e342de6-f736-4226-8dcb-c8b43b74dec9
 * title: What is a functional component?
+* topics: React
 ##### !question
 A functional component is a component that:
 ##### !end-question
@@ -51,6 +53,7 @@ returns a single React element
 * type: multiple-choice
 * id: 2df78a2c-67d0-4fd2-8d7a-87a3fb5965de
 * title: Use of Props
+* topics: React
 ##### !question
 What are props used for?
 ##### !end-question
@@ -73,6 +76,7 @@ Passing data
 * type: multiple-choice
 * id: 3e6ffcac-002e-470a-aa46-057a3199780a
 * title: Destructuring
+* topics: React, JavaScript
 ##### !question
 Which of these is properly using destructuring?
 
@@ -124,6 +128,7 @@ B
 * type: multiple-choice
 * id: aca3f160-7585-402d-a3bb-865bd19c04f5
 * title: Data type from map
+* topics: React, JavaScript
 ##### !question
 What data type is returned from the map method?
 ##### !end-question
@@ -146,6 +151,7 @@ Array
 * type: checkbox
 * id: cdd8dd36-ce52-4a03-9740-bc3ea130142d
 * title: Characteristics of a Class component
+* topics: React
 ##### !question
 Which characteristics are attributable to Class components?
 ##### !end-question
@@ -171,6 +177,7 @@ Which characteristics are attributable to Class components?
 * type: multiple-choice
 * id: 904fc82c-87c5-48b2-88d1-196a520e2eec
 * title: Handling events
+* topics: React
 ##### !question
 Which of these is valid code that handles an event?
 
@@ -258,6 +265,7 @@ B
 * type: multiple-choice
 * id: b6cb92ea-6626-4c02-9113-5fe14e2b04ae
 * title: Updating state
+* topics: React
 ##### !question
 Given the code below, which line of code would change the message property of state to "Hello Galvanize!" in the position indicated.
 
@@ -302,6 +310,7 @@ this.setState(prevState => ({message: "Hello Galvanize!"}));
 * type: multiple-choice
 * id: caba2414-779b-4a68-a3da-b43d76a2db33
 * title: Default submit behavior
+* topics: React, JavaScript
 ##### !question
 The default behavior when submitting a form is:
 ##### !end-question
@@ -324,6 +333,7 @@ The default behavior when submitting a form is:
 * type: short-answer
 * id: 5d52a2ba-c67e-4faf-b7af-334715b80f8b
 * title: Fill in the blank
+* topics: React
 ##### !question
 React has component ________ methods that are called at different parts of the React component life time.  One of which is called the `componentDidMount` method.
 ##### !end-question
@@ -341,6 +351,7 @@ React has component ________ methods that are called at different parts of the R
 * type: multiple-choice
 * id: d4336d5b-cbdd-4690-8ec6-ddd415a27ea2
 * title: When is it called?
+* topics: React
 ##### !question
 When will React call the  `componentDidMount` method:
 ##### !end-question
@@ -361,6 +372,7 @@ Just after the component mounts
 * type: multiple-choice
 * id: d2c544b7-7a08-4af3-b466-fbd3ded422e5
 * title: Async
+* topics: JavaScript
 ##### !question
 The async keyword requires the ________ keyword to be used in the method.
 ##### !end-question
@@ -381,6 +393,7 @@ await
 * type: short-answer
 * id: 57109fa7-2b75-4cff-985f-86830895ddd1
 * title: Make HTTP requests
+* topics: React, JavaScript
 ##### !question
 We use the _______ method to request data from an HTTP source.
 ##### !end-question
@@ -400,6 +413,7 @@ We use the _______ method to request data from an HTTP source.
 * type: checkbox
 * id: 221e99f9-a2ae-41e1-9e62-c3630826ecfb
 * title: Building a project
+* topics: React
 ##### !question
 Select the items that will be created when you build your React application:
 ##### !end-question
@@ -424,6 +438,7 @@ Select the items that will be created when you build your React application:
 * type: checkbox
 * id: 5a093d38-3551-4230-a696-f68f3d3aa70d
 * title: Deploying to different domains
+* topics: React
 ##### !question
 When deploying a React client side application to a different domain than the server side app:
 ##### !end-question
@@ -447,6 +462,7 @@ When deploying a React client side application to a different domain than the se
 * type: multiple-choice
 * id: a5449fe7-3a99-4465-98d2-b7e9f25245f7
 * title: React proxy server
+* topics: React
 ##### !question
 If the React application is on the same domain as the server side API and is integrated with a proxy server, when a user makes a request to a react application that doesn't have a route for handling the request:
 ##### !end-question
@@ -467,6 +483,7 @@ Node will pass the request to the API server
 * type: multiple-choice
 * id: f97f7eab-4c10-47be-b045-cef6f987d718
 * title: Reducer Review
+* topics: React, Redux
 ##### !question
 What are the two parameters (not necessarily in order) that the reducer function will accept?
 ##### !end-question
@@ -485,6 +502,7 @@ What are the two parameters (not necessarily in order) that the reducer function
 * type: multiple-choice
 * id: 4ebcc152-7c15-41d2-8c1c-1d0a61183c59
 * title: React-Redux Review
+* topics: React, Redux
 ##### !question
 What does `Provider` not do?
 ##### !end-question
@@ -504,6 +522,7 @@ Filters the content to only what the application needs
 * type: checkbox
 * id: 1b1417db-8485-43ec-a5dd-91f8b34da5db
 * title: Connect function
+* topics: React, Redux
 ##### !question
 The `connect()` function takes the parameters of:
 ##### !end-question
@@ -525,6 +544,7 @@ The `connect()` function takes the parameters of:
 * type: multiple-choice
 * id: 0b9d88f9-e003-4004-a9fc-7ab2fe1f2cdd
 * title: a new state object
+* topics: React, Redux
 ##### !question
 Each case statement of the reducer should return:
 ##### !end-question
@@ -544,6 +564,7 @@ a new state object
 * type: multiple-choice
 * id: 8d83bb9e-79b4-475e-a439-36a9cd3e1d54
 * title: Code example
+* topics: React, Redux
 ##### !question
 The code below is an example of:
 
@@ -579,7 +600,8 @@ an action creator
 ### !challenge
 * type: multiple-choice
 * id: 656181f4-dfe8-4023-8e6d-8a0ea89e6a52
-* title: Example #2
+* title: Example
+* topics: React, Redux
 ##### !question
 The code below is an example of:
 
@@ -622,6 +644,7 @@ a reducer
 * type: short-answer
 * id: 4a44f964-803b-4509-a920-76825423e41b
 * title: Application state
+* topics: React, Redux
 ##### !question
 Redux stores all of the application state in one place, called the _________.
 ##### !end-question
@@ -641,6 +664,7 @@ Redux stores all of the application state in one place, called the _________.
 * type: checkbox
 * id: 3d698edc-8678-48b1-8791-4a33bd6b15ca
 * title: HTTP requests
+* topics: React
 ##### !question
 When making an HTTP request to a server the following things happen:
 ##### !end-question
@@ -664,6 +688,7 @@ When making an HTTP request to a server the following things happen:
 * type: multiple-choice
 * id: 7320a7ff-e55c-4643-9a0e-b96058774f9a
 * title: Which route will not render?
+* topics: React
 ##### !question
 If you were to navigate to `/example/1/things`, which of these routes would render?
 ##### !end-question
@@ -684,6 +709,7 @@ None of the above
 * type: multiple-choice
 * id: 27d819b6-3cd5-4836-9029-20ebe1d9f8d0
 * title: `Switch`
+* topics: React
 ##### !question
 True or False: The `Switch` statement can render more than one `Route` component at a time
 ##### !end-question
@@ -701,6 +727,7 @@ False
 * type: multiple-choice
 * id: d4e4f923-35d7-423a-8aa7-804e1a150ddb
 * title: Wildcard route
+* topics: React
 ##### !question
 A wildcard route must have a:
 ##### !end-question
