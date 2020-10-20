@@ -112,7 +112,7 @@ Use the `git _____` command to copy commits from the remote server to the local 
 * title: Different histories
 * topics: git
 ##### !question
-When the commit histories are different between the local and remote branch then a _______ must happen.
+When the commit histories are different between the local and remote branch then a _______ must happen to work the same branch locally.
 ##### !end-question
 ##### !options
 * fetch merge
