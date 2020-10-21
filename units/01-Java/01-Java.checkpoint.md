@@ -130,7 +130,7 @@ It tells the Java command where to find all the classes
 The name of the file Gradle uses to store build information is: 
 ##### !end-question
 ##### !answer
-/(build.gradle)
+build.gradle
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
