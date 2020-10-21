@@ -35,7 +35,7 @@ Remote
 The `git ____` command sends the bundled changes from the local server to the central server.
 ##### !end-question
 ##### !answer
-/(push)/i
+/push/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -55,7 +55,7 @@ The `git ____` command sends the bundled changes from the local server to the ce
 Which git command can you use to see a list of change bundles in your local repository?
 ##### !end-question
 ##### !answer
-/(log)/i
+/(git )?log/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -75,7 +75,7 @@ Which git command can you use to see a list of change bundles in your local repo
 The `git _____` command will take changes from the remote repository and add them to your local repository.
 ##### !end-question
 ##### !answer
-/(pull|fetch)/i
+/(pull|fetch)/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -95,7 +95,7 @@ The `git _____` command will take changes from the remote repository and add the
 Use the `git _____` command to copy commits from the remote server to the local repository and update the local reference for the branch without making changes to the source files.
 ##### !end-question
 ##### !answer
-/(fetch)/i
+/fetch/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -184,7 +184,7 @@ At the top
 To combine the changes made between two branches use the `git _____` command.
 ##### !end-question
 ##### !answer
-/(merge)/i
+/merge/
 ##### !end-answer
 ##### !placeholder
 [Placeholder text]
@@ -228,7 +228,7 @@ The HEAD represents (check all that apply):
 Use the `git ______ [branch name]` command to switch the HEAD to another branch.
 ##### !end-question
 ##### !answer
-/(checkout)/i
+/checkout/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -271,7 +271,7 @@ git checkout -b [branch name]
 _________ is the process of copying a central repository to your local development environment.
 ##### !end-question
 ##### !answer
-/(clone|cloning)/i
+/^(git )?(clone|cloning)/i
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -280,3 +280,7 @@ _________ is the process of copying a central repository to your local developme
 ##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
+
+### !instructor
+Ruby Regex test: https://rubular.com/r/dSwuG4ETP1kqfb
+### !end-instructor
