@@ -54,7 +54,7 @@ like domain names but in reverse order
 What is the command for checking the current version of Gradle installed?
 ##### !end-question
 ##### !answer
-/(gradle.*-v)
+/(gradle.*-v|gradle.*-version)
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
