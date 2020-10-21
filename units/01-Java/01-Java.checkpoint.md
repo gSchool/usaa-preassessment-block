@@ -14,7 +14,7 @@ This assessment is to help determine which courses need to be taken and not an e
 The java code of your application should go under the _____ folder.
 ##### !end-question
 ##### !answer
-src
+/src/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -54,7 +54,7 @@ like domain names but in reverse order
 What is the command for checking the current version of Gradle installed?
 ##### !end-question
 ##### !answer
-/(gradle.*-v|gradle.*-version)
+/^(gradle )?(-version$|-v$)/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -130,7 +130,7 @@ It tells the Java command where to find all the classes
 The name of the file Gradle uses to store build information is: 
 ##### !end-question
 ##### !answer
-build.gradle
+/build[.]gradle/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]

@@ -63,7 +63,7 @@ Which git command can you use to see a list of commits in your local repository?
 The `git _____` command will take changes from the remote repository and add them to your local repository.
 ##### !end-question
 ##### !answer
-/(pull|fetch)/
+/^(git )?(pull|fetch)/
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->

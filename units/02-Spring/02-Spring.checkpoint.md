@@ -183,7 +183,7 @@ public String getPostForBlog(@PathVariable int blogId, @PathVariable int postId)
 ```
 ##### !end-question
 ##### !answer
-/(/blog/{blogId}/post/{postId})
+/\/blog\/{blogId}\/post\/{postId}/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -526,10 +526,10 @@ Java Persistence API
 What is the property in the `application.properties` file that specifies the connection string to the database?
 ##### !end-question
 ##### !answer
-/(spring.datasource.url)
+/spring\.datasource\.url/
 ##### !end-answer
 ##### !placeholder
-[Placeholder text]
+[Type your answer here...]
 ##### !end-placeholder
 ##### !explanation
 ##### !end-explanation
@@ -686,7 +686,7 @@ validate
 The ________ function on a JPA repository will update a record on the database.
 ##### !end-question
 ##### !answer
-/(save)
+/save/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -720,7 +720,7 @@ public interface AddressRepository extends CrudRepository<Address,Long> {
 ```
 ##### !end-question
 ##### !answer
-/(findByCity)
+/findByCity/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -878,7 +878,7 @@ Singleton
 In order to isolate a test to just a controller, you can use the `@WebMvcTest` annotation on the test class and _________ to mock an autowired service class.
 ##### !end-question
 ##### !answer
-/(MockBean)
+/^(@)?MockBean/
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
@@ -893,7 +893,7 @@ In order to isolate a test to just a controller, you can use the `@WebMvcTest` a
 Add the ________ annotation to a class to fill it with configuration settings?
 ##### !end-question
 ##### !answer
-/(ConfigurationProperties)
+/ConfigurationProperties/
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
@@ -908,7 +908,7 @@ Add the ________ annotation to a class to fill it with configuration settings?
 With Spring actuator installed, which route must you navigate to in order to view information on memory, processors, uptime, and other metrics about your app and system?
 ##### !end-question
 ##### !answer
-/(metrics)/i
+/metrics/i
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]

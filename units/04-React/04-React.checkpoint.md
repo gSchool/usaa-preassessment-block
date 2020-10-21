@@ -14,7 +14,7 @@ This assessment is to help determine which courses need to be taken and not an e
 When writing a JSX tag, use ______ instead of class to add the class attribute.
 ##### !end-question
 ##### !answer
-/className
+/className/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here]
@@ -398,7 +398,7 @@ await
 We use the _______ method to request data from an HTTP source.
 ##### !end-question
 ##### !answer
-/(fetch)/i
+/fetch/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
@@ -649,7 +649,7 @@ a reducer
 Redux stores all of the application state in one place, called the _________.
 ##### !end-question
 ##### !answer
-/(store)/i
+/store/i
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
