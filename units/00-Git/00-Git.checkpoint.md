@@ -18,10 +18,8 @@ The central server where changes are sent is generally called the:
 * Trunk
 ##### !end-options
 ##### !answer
-Remote
+* Remote
 ##### !end-answer
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -37,11 +35,6 @@ The `git ____` command sends the bundled changes from the local server to the ce
 ##### !answer
 /push/
 ##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -57,11 +50,6 @@ Which git command can you use to see a list of change bundles in your local repo
 ##### !answer
 /(git )?log/
 ##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -77,11 +65,6 @@ The `git _____` command will take changes from the remote repository and add the
 ##### !answer
 /(pull|fetch)/
 ##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -97,11 +80,6 @@ Use the `git _____` command to copy commits from the remote server to the local 
 ##### !answer
 /fetch/
 ##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -121,7 +99,7 @@ When the commit histories are different between the local and remote branch then
 * fetch commit
 ##### !end-options
 ##### !answer
-merge commit
+* merge commit
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -144,7 +122,7 @@ A graph is made up of ______ and _______.
 * points and legs
 ##### !end-options
 ##### !answer
-nodes and edges
+* nodes and edges
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -167,7 +145,7 @@ When viewing the Git DAG from the command line, the most recent commits are:
 * To the right
 ##### !end-options
 ##### !answer
-At the top
+* At the top
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -186,11 +164,6 @@ To combine the changes made between two branches use the `git _____` command.
 ##### !answer
 /merge/
 ##### !end-answer
-##### !placeholder
-[Placeholder text]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -230,11 +203,6 @@ Use the `git ______ [branch name]` command to switch the HEAD to another branch.
 ##### !answer
 /checkout/
 ##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -273,11 +241,6 @@ _________ is the process of copying a central repository to your local developme
 ##### !answer
 /^(git )?(clone|cloning)/i
 ##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
