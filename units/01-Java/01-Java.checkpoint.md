@@ -1026,7 +1026,7 @@ None of the above
 * title: Implementing an interface
 * topics: Java
 ### !question
-Given the following class:
+Given the following interface:
 
 ```java
 public interface Browseable {
