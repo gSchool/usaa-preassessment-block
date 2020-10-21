@@ -1,15 +1,15 @@
 # Git Assessment
 
-This assessment is to help determine which courses need to be taken and not an evaluation of your job performance.  If you do not know the answer to the question please do not try to research the answer, just leave it blank.  Guessing on a question or researching the answer could skew the results that help us identify what materials to cover.
+This assessment helps determine which courses need to be taken and is *not* an evaluation of your job performance.  If you do not know the answer to a question, please do not try to research the answer, just leave it blank.  Guessing on a question or researching the answer can skew the results that help us identify what materials to cover.
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 9aa5f54c-0c31-402f-b6f1-c3af6370bda0
-* title: What is the central server called?
+* title: A reference to the central repository
 * topics: git
 ##### !question
-The central server where changes are sent is generally called the:
+The central repository where changes are sent is generally called the:
 ##### !end-question
 ##### !options
 * Head
@@ -45,7 +45,7 @@ The `git ____` command sends the bundled changes from the local server to the ce
 * title: See a list of change bundles
 * topics: git
 ##### !question
-Which git command can you use to see a list of change bundles in your local repository?
+Which git command can you use to see a list of commits in your local repository?
 ##### !end-question
 ##### !answer
 /(git )?log/
@@ -90,16 +90,16 @@ Use the `git _____` command to copy commits from the remote server to the local 
 * title: Different histories
 * topics: git
 ##### !question
-When the commit histories are different between the local and remote branch then a _______ must happen to work the same branch locally.
+When the commit histories are different between the current branch and a remote reference branch then a _______ must happen to include the remote changes for new local work.
 ##### !end-question
 ##### !options
-* fetch merge
+* fetch & merge
 * fetch
-* merge commit
-* fetch commit
+* merge & commit
+* fetch & commit
 ##### !end-options
 ##### !answer
-* merge commit
+* merge & commit
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -133,7 +133,7 @@ A graph is made up of ______ and _______.
 ### !challenge
 * type: multiple-choice
 * id: b812a825-92e6-46ce-9705-65c32b9eaa47
-* title: Most recent commit position (command line)
+* title: History order (command line)
 * topics: git
 ##### !question
 When viewing the Git DAG from the command line, the most recent commits are:
@@ -171,7 +171,7 @@ To combine the changes made between two branches use the `git _____` command.
 ### !challenge
 * type: checkbox
 * id: 42ddb3ef-2a67-47c0-b2e3-05a8beb79b21
-* title: What does the HEAD represent?
+* title: The HEAD reference
 * topics: git
 ##### !question
 The HEAD represents (check all that apply):
@@ -179,11 +179,11 @@ The HEAD represents (check all that apply):
 ##### !options
 * Which branch was last updated with a commit
 * The commit that was last updated
-* Where you currently are in your file system
+* A snapshot of the filesystem at the commit it references
 * Used to determine where the next commit should go
 ##### !end-options
 ##### !answer
-* Where you currently are in your file system
+* A snapshot of the filesystem at the commit it references
 * Used to determine where the next commit should go
 ##### !end-answer
 ##### !explanation
@@ -233,7 +233,7 @@ git checkout -b [branch name]
 ### !challenge
 * type: short-answer
 * id: 4db08dc4-008e-4615-8139-a5590ec8fc23
-* title: Copying a central repository to local
+* title: Copy another repository
 * topics: git
 ##### !question
 _________ is the process of copying a central repository to your local development environment.
