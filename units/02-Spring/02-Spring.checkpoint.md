@@ -17,7 +17,7 @@ https://example.com/app/#/orders/2
 ```
 ##### !end-question
 ##### !answer
-(^\/)?app
+/(^\/)?app/
 ##### !end-answer
 ##### !placeholder
 Enter the path
