@@ -961,7 +961,7 @@ public class BlogServiceConfig {
 Assuming the code above, what is the name of the property that must be added to the application.properties file to set the URL value?
 ##### !end-question
 ##### !answer
-/(blogService\.url)
+/blogService\.url/
 ##### !end-answer
 ##### !placeholder
 [Type your answer here...]
