@@ -878,7 +878,7 @@ Singleton
 In order to isolate a test to just a controller, you can use the `@WebMvcTest` annotation on the test class and _________ to mock an autowired service class.
 ##### !end-question
 ##### !answer
-/^(@)?MockBean/
+(^(@)?MockBean|^(@)?InjectMocks)
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
