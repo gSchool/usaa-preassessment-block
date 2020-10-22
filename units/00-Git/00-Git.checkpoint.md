@@ -162,7 +162,7 @@ When viewing the Git DAG from the command line, the most recent commits are:
 To combine the changes made between two branches use the `git _____` command.
 ##### !end-question
 ##### !answer
-/merge/
+/merge|rebase/
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
