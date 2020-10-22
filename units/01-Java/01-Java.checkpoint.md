@@ -52,6 +52,8 @@ like domain names but in reverse order
 * topics: Gradle
 ##### !question
 What is the command for checking the current version of Gradle installed?
+
+> **Note**: _NOT_ the gradle wrapper.
 ##### !end-question
 ##### !answer
 /^(gradle )?(-version$|-v$)/
