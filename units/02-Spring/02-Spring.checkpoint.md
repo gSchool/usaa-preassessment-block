@@ -140,7 +140,6 @@ host: example.com
 * title: Querystring Question
 * topics: Spring
 ##### !question
-## Question #1
 Which technique would be the most appropriate for the following scenario?
 
 You are implementing an endpoint where users can send in arbitrary values, and you need to store them all.
