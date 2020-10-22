@@ -130,7 +130,7 @@ host: example.com
 [Type your answer here]
 ##### !end-placeholder
 ##### !answer
-@RequestMapping("/survey/questions")
+/\@RequestMapping\(.*\"\/survey\/questions\"\)/
 ##### !end-answer
 ### !end-challenge
 
