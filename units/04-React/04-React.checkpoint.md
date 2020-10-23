@@ -395,7 +395,7 @@ await
 * title: Make HTTP requests
 * topics: React, JavaScript
 ##### !question
-We use the _______ method to request data from an HTTP source.
+We use the javascript _______ method to request data from an HTTP source.
 ##### !end-question
 ##### !answer
 /fetch/
