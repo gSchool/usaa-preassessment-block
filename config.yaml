@@ -30,7 +30,7 @@ Standards:
         MaxCheckpointSubmissions: 1
         DefaultVisibility: hidden
   -
-    Title: Java
+    Title: Java Intake Survey
     Description: Java intake survey
     UID: d52387880e1ea22817a72d3759213819
     SuccessCriteria:
