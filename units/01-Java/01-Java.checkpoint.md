@@ -1188,8 +1188,8 @@ public class SnippetTest {
       Product dollarProduct = new Product("buck", 100);
       Product dollarFiftyProduct = new Product("buckFifty", 150);
       Object dollarCurrencyInstance = getCurrencyInstanceOrFail(currencyConstructor, dollarProduct);
-      Object dollarFiftyCurrencyInstance = getCurrencyInstanceFromMethodOrFail(getCurrencyMethod, dollarFiftyProduct);
       assertGetUSDFunctionality(getUSDMethod, dollarCurrencyInstance);
+      Object dollarFiftyCurrencyInstance = getCurrencyInstanceFromMethodOrFail(getCurrencyMethod, dollarFiftyProduct);
       assertGetUSDFunctionalityViaReflection(getUSDMethod, dollarFiftyCurrencyInstance);
   }
 
@@ -1222,7 +1222,7 @@ public class SnippetTest {
       try {
           currencyConstructor = currencyClass.getDeclaredConstructor(Product.class);
       } catch (NoSuchMethodException e) {
-          fail("Your Currency class must have a constructor that accepts a product");
+          fail("Your Currency class must have a constructor that accepts a Product");
       }
       return currencyConstructor;
   }
@@ -1232,7 +1232,7 @@ public class SnippetTest {
       try {
           getCurrencyMethod = productClass.getMethod("getCurrency");
       } catch (NoSuchMethodException e) {
-          fail("Your Currency class must have a method called getCurrency");
+          fail("Your Product class must have a method called getCurrency");
       }
       return getCurrencyMethod;
   }
@@ -1242,7 +1242,7 @@ public class SnippetTest {
       try {
           getUSDMethod = currencyClass.getMethod("getUSD");
       } catch (NoSuchMethodException e) {
-          fail("Your Currency class must have a method called getCurrency");
+          fail("Your Currency class must have a method called getUSD");
       }
       return getUSDMethod;
   }
@@ -1252,7 +1252,7 @@ public class SnippetTest {
       try {
           currencyInstance = currencyConstructor.newInstance(product);
       } catch (InstantiationException | IllegalAccessException | InvocationTargetException e) {
-          fail("Could not construct a currency, do you have a constructor that takes a product?");
+          fail("Could not construct a Currency object, do you have a constructor that takes a Product?");
       }
       return currencyInstance;
   }
@@ -1262,7 +1262,7 @@ public class SnippetTest {
       try {
           currencyInstance = getCurrencyMethod.invoke(product);
       } catch (IllegalAccessException | InvocationTargetException e) {
-          fail("Could not construct a currency, do you have a constructor that takes a product?");
+          fail("Could not construct a Currency object, do you have a constructor that takes a Product?");
       }
       return currencyInstance;
   }
@@ -1271,7 +1271,7 @@ public class SnippetTest {
       try {
           assertEquals("$1.00", getUSD.invoke(currencyInstance), "getUSD value");
       } catch (InvocationTargetException| IllegalAccessException e) {
-          fail("Could not call the getUSD method");
+          fail("Could not call the getUSD method for a dollarProduct");
       }
   }
 
@@ -1279,7 +1279,7 @@ public class SnippetTest {
       try {
           assertEquals("$1.50", getUSD.invoke(currencyInstance), "getUSD value");
       } catch (InvocationTargetException| IllegalAccessException e) {
-          fail("Could not call the getUSD method");
+          fail("Could not call the getUSD method for a dollarFiftyProduct");
       }
   }
 }
