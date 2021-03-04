@@ -1,55 +1,66 @@
-# Config.yaml specifies the content and ordering within a repo for a curriculum block
-
-# Supported Fields
-# ==========================
-# Standards -- (Standards = Units). A list of Units for a block
-# Standard.Title: string -- The Unit title that shows up on the curriculum overview
-# Standard.UID: string -- A unique ID for the Unit. Use `cmd/ctrl+option/alt+u` to generate (runs once per cursor/selection)
-# Standard.Description: string -- The Unit description that shows up on the curriculum overview
-# Standard.SuccessCriteria: list -- An array of success criteria that can be viewed when scoring the checkpoint in a Unit.
-# Standard.ContentFiles: list -- A list of Lessons and (optional) Checkpoints in a Unit.
-# Standard.ContentFiles.Type: Lesson | Checkpoint -- The type of the current content file.
-# Standard.ContentFiles.UID: string -- A unique ID for the Unit. Use `cmd/ctrl+option/alt+u` to generate (runs once per cursor/selection)
-# Standard.ContentFiles.Path: string -- The absolute path to the Lesson, starting with `/`. Use `cmd/ctrl+option/alt+p` to generate
-# Standard.ContentFiles.DefaultVisibility: hidden -- (optional) Set to 'hidden' to hide when a course first starts.
-# Standard.ContentFiles.Autoscore: boolean -- (optional, for Checkpoints only) submit checkpoint scores without review
-# Standard.ContentFiles.MaxCheckpointSubmissions: number -- (optional, for Checkpoints only) limit the number of submissions
-
-# Related Snippets
-# ==========================
-# `unityaml`: add a Unit
-# `lessonyaml`: add a lesson
-# Note: Be sure to place the cursor at the appropriate indentation level before running either of these.
-
-# All UIDs must be unique within a repo. Use `cmd/ctrl+option/alt+u` to generate
 Standards:
-  - Title: Self Assessment
-    UID:  7c5f1c40-3646-11ea-8200-49856ed013fb
-    Description: Intake survey for Galvanize Training at USAA 
+  -
+    Title: Git
+    Description: Git
+    UID: 0bcc70105ad279503e31fe7b3f47b665
     SuccessCriteria:
-      -  Complete the survey
+      - success criteria
     ContentFiles:
-      - Type: Checkpoint
-        UID: 5da00770-364a-11ea-8200-49856ed013fb
-        Path: /pre-assessment-survey.md
+      -
+        Type: Checkpoint
+        UID: e064436d3b4dbe9aba8fc00715c46152
+        Path: /units/00-Git/00-Git.checkpoint.md
         Autoscore: false
-  - Title: Java Coding Challenge
-    UID: b0979f17-2a35-4403-be98-10f0dcf5fd91
-    Description: Test your basic Java syntax
+        MaxCheckpointSubmissions: 1
+  -
+    Title: Java
+    Description: Java
+    UID: d52387880e1ea22817a72d3759213819
     SuccessCriteria:
-      - All tests pass
+      - success criteria
     ContentFiles:
-      - Type: Checkpoint
-        UID: 6db83840-023b-4ddd-b86d-5fdc5f254125 
-        Path: /java-unique-characters.md
-        Autoscore: true
-  - Title: Javascript Coding Challenge
-    UID: ba26a7ba-06a6-455c-a306-6751042dc316
-    Description: Test your basic Javascript syntax
+      -
+        Type: Checkpoint
+        UID: 9a64c81a9e08c5a99076398595a8675b
+        Path: /units/01-Java/01-Java.checkpoint.md
+        Autoscore: false
+        MaxCheckpointSubmissions: 1
+  -
+    Title: Spring
+    Description: Spring
+    UID: 38008dd81c2f4d7985ecf6e0ce8af1d1
     SuccessCriteria:
-      - All tests pass
+      - success criteria
     ContentFiles:
-      - Type: Checkpoint
-        UID: 71775186-010d-4972-963c-3ad3e22414ae
-        Path: /javascript-two-sum.md
-        Autoscore: true
+      -
+        Type: Checkpoint
+        UID: 812346cab277fa42ef9724d7dce4117b
+        Path: /units/02-Spring/02-Spring.checkpoint.md
+        Autoscore: false
+        MaxCheckpointSubmissions: 1
+  -
+    Title: Javascript
+    Description: Javascript
+    UID: 9e13b69d1d2da927102acaaaf7154a37
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Checkpoint
+        UID: a0f548f7f8d546db0b9f00a9667bdb46
+        Path: /units/03-Javascript/03-JavaScript.checkpoint.md
+        Autoscore: false
+        MaxCheckpointSubmissions: 1
+  -
+    Title: React
+    Description: React
+    UID: 50ce2da63bea6a618e7578fa50690040
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Checkpoint
+        UID: 095745fbf6fd59ae848dd8180465e19b
+        Path: /units/04-React/04-React.checkpoint.md
+        Autoscore: false
+        MaxCheckpointSubmissions: 1
