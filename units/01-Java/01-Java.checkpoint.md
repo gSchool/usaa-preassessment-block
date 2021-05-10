@@ -1,6 +1,6 @@
 # Java Skills Assessment
 
-This assessment is to help determine which courses need to be taken and not an evaluation of your job performance.  If you do not know the answer to the question please do not try to research the answer, just leave it blank.  Guessing on a question or researching the answer could skew the results that help us identify what materials to cover.
+This assessment helps determine which topics need to be reviewed in the upcoming course and is *not* an evaluation of your previous performance.  If you do not know the answer to a question, please do not try to research the answer, just leave it blank.  Guessing on a question or researching the answer can skew the results that help us identify what materials to cover.
 
 ## Introduction to Java
 
