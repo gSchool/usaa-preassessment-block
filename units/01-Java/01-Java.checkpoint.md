@@ -24,28 +24,6 @@ The java code of your application should go under the _____ folder.
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: multiple-choice
-* id: 3fc55d64-5eb9-4418-a29a-861fe11c64a2
-* title: Package names
-* topics: Java
-##### !question
-Package names should be named:
-##### !end-question
-##### !options
-* the same as the computers they will be installed on
-* a randomized set of characters like a GUID
-* like domain names but in reverse order
-##### !end-options
-##### !answer
-like domain names but in reverse order
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: short-answer
 * id: 44c799d7-8d0a-4549-ba2c-84bf37093aa8
 * title: Checking Gradle version
@@ -64,6 +42,7 @@ What is the command for checking the current version of Gradle installed?
 ### !end-challenge
 <!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 7583b560-0bbe-4a40-8738-e8fce0dd6da3
@@ -81,7 +60,9 @@ Which command would you use to **compile** your code?
 `javac`
 ##### !end-answer
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 856a9194-63b8-4239-baec-7d67e16b02a1
@@ -99,28 +80,8 @@ Which command would you use to **run** your code?
 `java`
 ##### !end-answer
 ### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: c46940cf-eed7-434f-8714-a13c331e7393
-* title: What is the class-path?
-* topics: Java
-##### !question
-Which of these describes the purpose of the class-path?
-##### !end-question
-##### !options
-* It describes the directory where projects are built to
-* It describes the directory where artifacts for deployment go
-* It tells the Java command where to find all the classes
-##### !end-options
-##### !answer
-It tells the Java command where to find all the classes
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
 <!--END CHALLENGE-->
+
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -142,6 +103,7 @@ The name of the file Gradle uses to store build information is:
 ### !end-challenge
 <!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -185,7 +147,9 @@ public class SnippetTest {
 ```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: f09c5114-2d82-4812-9063-667617cb90d2
@@ -205,7 +169,9 @@ Which of the following is __not__ a valid Java primitive type?
 `string`
 ##### !end-answer
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -235,6 +201,7 @@ class ChallengeSolution {
 ```
 ### !end-placeholder
 ### !tests
+```java
         System.out.flush();
         System.setOut(old);
 
@@ -265,9 +232,12 @@ public class SnippetTest {
         assertEquals(contains, RAW_SUBMISSION.matches("(?s).*\\b" + command + "\\s*\\(.*"), message);
     }
 }
+```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 859d66c6-7ff0-45bd-b2b4-3584fbf42b4f
@@ -292,9 +262,11 @@ Which of the following options is the correct way to compare these two strings?
 `firstGreeting.equals(secondGreeting)`
 ##### !end-answer
 ### !end-challenge
+<!--END CHALLENGE-->
 
 ## Classes
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -344,7 +316,9 @@ public class SnippetTest {
 ```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -368,6 +342,7 @@ public class SnippetTest {
   //Implement the 'BankAccount' class here
 ### !end-placeholder
 ### !tests
+```java
    BankAccount account = new BankAccount();
 
    @BeforeEach
@@ -411,9 +386,12 @@ public class SnippetTest {
        assertEquals(false, account.isOverDrawn(), "isOverDrawn() needs to return false for positive balances");
    }
 }
+```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -499,6 +477,7 @@ public class SnippetTest {
 ```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -548,32 +527,9 @@ The rule or rules to follow when using red-green-refactor is/are:
 ### !end-challenge
 <!--END CHALLENGE-->
 
-### !challenge
-* type: multiple-choice
-* id: 79b223ca-cd8e-4b84-b576-3666c0849be2
-* title: Casting from a specific to a general type
-* topics: Java
-##### !question
-Can a cast be done in reverse? In other words, can you cast from a more
-_specific_ type to a more _general_ type, as shown below?
-
-```java
-Object myString = (Object) "Hi there!";
-```
-##### !end-question
-##### !options
-* No, this is not allowed and causes a compile-time error.
-* The code compiles but it throws a run-time exception.
-* Yes, this is done routinely.
-* Yes, but it is unnecessary.
-##### !end-options
-##### !answer
-Yes, but it is unnecessary.
-##### !end-answer
-### !end-challenge
-
 ## Algorithms
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 9cb01e47-9b42-4696-9a43-62e35c346cc2
@@ -593,7 +549,9 @@ Which of the following is a legal instantiation of a new `String` array?
 `String[] stringArray = new String[10];`
 ##### !end-answer
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -655,7 +613,9 @@ public class SnippetTest {
 ```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 7cc9d1eb-e5f1-475f-b91d-4610bf73214e
@@ -676,28 +636,9 @@ strings that can be looked up by keys that are arbitrary integers?
 `HashMap<Integer, String> items = new HashMap<>();`
 ##### !end-answer
 ### !end-challenge
+<!--END CHALLENGE-->
 
-### !challenge
-* type: multiple-choice
-* id: 9470ee0f-4b38-43de-aaa2-22ad9262661d
-* title: Big O performance of HashMap
-* topics: Algorithms
-##### !question
-The following are a few examples Big O Notation from highest
-performance to lowest. Which one of these describes how the running time of a
-`HashMap` lookup varies with its size?
-##### !end-question
-##### !options
-* O(1)
-* O(log n)
-* O(n)
-* O(n<sup>2</sup>)
-##### !end-options
-##### !answer
-O(1)
-##### !end-answer
-### !end-challenge
-
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -735,6 +676,7 @@ public HashMap<Integer, String> genHashMap() {
 ```
 ### !end-placeholder
 ### !tests
+```java
 }
 
 public class SnippetTest {
@@ -749,8 +691,10 @@ public class SnippetTest {
        assertEquals("Airplane", result.get(747), "Value for key 747");
    }
 }
+```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -798,6 +742,7 @@ as unique elements
 ### !end-challenge
 <!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -813,6 +758,7 @@ You are provided a list of strings named `fileNames` that looks like this:
 Write a `forEach` and pass it a lambda that _prints_ the filenames, but with spaces replaced with dashes (-), e.g., "My-Report.csv" and "The-Best-Deck.pdf".
 ### !end-question
 ### !setup
+```java
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -843,6 +789,7 @@ public class SnippetTest {
         }
 
         LambdaCatcher fileNames = new LambdaCatcher();
+```
 ### !end-setup
 ### !placeholder
 // paste your code here
@@ -860,9 +807,11 @@ public class SnippetTest {
 ```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
 ## Organization
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
 * id: 24f33b42-771e-4b47-ba78-bd0c2f3e352f
@@ -878,7 +827,9 @@ How would you import everything in the package `com.galvanize.components`?
 Answer here
 ##### !end-placeholder
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -930,7 +881,9 @@ public class SnippetTest {
 ```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: fb69ab66-ab51-45d8-b9bf-2a3a722cba83
@@ -975,7 +928,9 @@ If you had a `protected` method in your `Product` class, what other classes woul
 `Shipping` and `DigitalProduct`
 ##### !end-answer
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 0c9e8543-e13d-49ad-8183-b2cce7d24c1d
@@ -1020,7 +975,9 @@ If you had a `private` method in your `Product` class, what other classes would 
 None of the above
 ##### !end-answer
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: code-snippet
 * language: java
@@ -1100,7 +1057,9 @@ public class SnippetTest {
 ```
 ### !end-tests
 ### !end-challenge
+<!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 1c708ee3-5b1e-44cd-8403-b24e1d3fed13
@@ -1108,7 +1067,7 @@ public class SnippetTest {
 * topics: Java
 ##### !question
 ### Question
-```
+```java
 public class Foo {
     public static String BAR = "bar";
 
@@ -1133,162 +1092,11 @@ Given the following code, how would I get the value of the static field `BAR`?
 `Foo.BAR`
 ##### !end-answer
 ### !end-challenge
-
-### !challenge
-* type: code-snippet
-* language: java
-* id: 36a7ff75-cfd4-4da5-8bb2-eedea9e1c18c
-* title: Creating a nested static class
-* topics: Java
-### !question
-Given the following code, create a nested static class named `Currency` that constructs with an instance of the `Product` class and has a method named `getUSD`.  `getUSD` should return the money value as a string, such as `$8.31`.  Add a method to your `Product` class called `getCurrency` that returns an instance of the `Currency` class.
-### !end-question
-### !setup
-```java
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.text.NumberFormat;
-```
-### !end-setup
-### !placeholder
-```java
-class Product {
-    Product(String name, int valueInCents) {
-        this.name = name;
-        this.valueInCents = valueInCents;
-    }
-
-    private String name;
-    private int valueInCents;
-
-    public String getName() {
-        return name;
-    }
-
-    public int getValueInCents() {
-        return valueInCents;
-    }
-
-    //declare your class here
-}
-```
-### !end-placeholder
-### !tests
-```java
-public class SnippetTest {
-  @Test
-  public void runMethodPassesAllTests() throws Throwable {
-      Class productClass = getProductClassOrFail();
-      Class currencyClass = getCurrencyClassOrFail(productClass);
-      Constructor currencyConstructor = getCurrencyConstructorOrFail(currencyClass);
-      Method getCurrencyMethod = getGetCurrencyMethodOrFail(productClass);
-      Method getUSDMethod = getGetUSDMethodOrFail(currencyClass);
-      Product dollarProduct = new Product("buck", 100);
-      Product dollarFiftyProduct = new Product("buckFifty", 150);
-      Object dollarCurrencyInstance = getCurrencyInstanceOrFail(currencyConstructor, dollarProduct);
-      assertGetUSDFunctionality(getUSDMethod, dollarCurrencyInstance);
-      Object dollarFiftyCurrencyInstance = getCurrencyInstanceFromMethodOrFail(getCurrencyMethod, dollarFiftyProduct);
-      assertGetUSDFunctionalityViaReflection(getUSDMethod, dollarFiftyCurrencyInstance);
-  }
-
-  private Class getProductClassOrFail() {
-      Class productClass = null;
-      try {
-          productClass = Class.forName("com.galvanize.Product");
-      } catch (ClassNotFoundException e) {
-          fail("You must have a class named 'Product', did you delete it?");
-      }
-      return productClass;
-  }
-
-  private Class getCurrencyClassOrFail(Class productClass) {
-      Class currencyClass = null;
-      for (Class innerClass : productClass.getDeclaredClasses()) {
-          if (Modifier.isStatic(innerClass.getModifiers()) && innerClass.getName() == "com.galvanize.Product$Currency") {
-              currencyClass = innerClass;
-          }
-      }
-      if (currencyClass == null) {
-          fail("Your 'Product' class must have a nested static class named 'Currency'.");
-      }
-
-      return currencyClass;
-  }
-
-  private Constructor getCurrencyConstructorOrFail(Class currencyClass) {
-      Constructor currencyConstructor = null;
-      try {
-          currencyConstructor = currencyClass.getDeclaredConstructor(Product.class);
-      } catch (NoSuchMethodException e) {
-          fail("Your Currency class must have a constructor that accepts a Product");
-      }
-      return currencyConstructor;
-  }
-
-  private Method getGetCurrencyMethodOrFail(Class productClass) {
-      Method getCurrencyMethod = null;
-      try {
-          getCurrencyMethod = productClass.getMethod("getCurrency");
-      } catch (NoSuchMethodException e) {
-          fail("Your Product class must have a method called getCurrency");
-      }
-      return getCurrencyMethod;
-  }
-
-  private Method getGetUSDMethodOrFail(Class currencyClass) {
-      Method getUSDMethod = null;
-      try {
-          getUSDMethod = currencyClass.getMethod("getUSD");
-      } catch (NoSuchMethodException e) {
-          fail("Your Currency class must have a method called getUSD");
-      }
-      return getUSDMethod;
-  }
-
-  private Object getCurrencyInstanceOrFail(Constructor currencyConstructor, Object product) {
-      Object currencyInstance = null;
-      try {
-          currencyInstance = currencyConstructor.newInstance(product);
-      } catch (InstantiationException | IllegalAccessException | InvocationTargetException e) {
-          fail("Could not construct a Currency object, do you have a constructor that takes a Product?");
-      }
-      return currencyInstance;
-  }
-
-  private Object getCurrencyInstanceFromMethodOrFail(Method getCurrencyMethod, Object product) {
-      Object currencyInstance = null;
-      try {
-          currencyInstance = getCurrencyMethod.invoke(product);
-      } catch (IllegalAccessException | InvocationTargetException e) {
-          fail("Could not construct a Currency object, do you have a constructor that takes a Product?");
-      }
-      return currencyInstance;
-  }
-
-  private void assertGetUSDFunctionality(Method getUSD, Object currencyInstance) {
-      try {
-          assertEquals("$1.00", getUSD.invoke(currencyInstance), "getUSD value");
-      } catch (InvocationTargetException| IllegalAccessException e) {
-          fail("Could not call the getUSD method for a dollarProduct");
-      }
-  }
-
-  private void assertGetUSDFunctionalityViaReflection(Method getUSD, Object currencyInstance) {
-      try {
-          assertEquals("$1.50", getUSD.invoke(currencyInstance), "getUSD value");
-      } catch (InvocationTargetException| IllegalAccessException e) {
-          fail("Could not call the getUSD method for a dollarFiftyProduct");
-      }
-  }
-}
-```
-### !end-tests
-### !end-challenge
+<!--END CHALLENGE-->
 
 ## Exceptions
 
+<!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
 * id: 89c11a1c-3697-4bbb-b88f-3e0c186cf356
@@ -1356,82 +1164,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 D
 ##### !end-answer
 ### !end-challenge
-
-### !challenge
-* type: code-snippet
-* language: java
-* id: c4981134-ebb3-4b90-a080-e8a9a0bf4fb8
-* title: Throw a custom exception
-* topics: Java
-### !question
-Create a custom `static` exception class called `IceCreamException` that extends
-`Exception`. Then throw a new `IceCreamException` in the `public static void run()` method with the message, "Sorry, no vanilla left".
-### !end-question
-### !setup
-// [include any imports specific to your tests]
-import java.io.IOException;
-
-// [to allow student to submit simple statements, wrap the submission
-//  using the !setup and !tests sections; example below]
-public class SnippetTest {
-
-    // Start Student Code
-### !end-setup
-### !placeholder
-// define IceCreamException class here
-
-public static void run() {
-     // throw your IceCreamException here
-}
-### !end-placeholder
-
-### !tests
-// public test class name **must** be `SnippetTest` to match the generated file name
-
-    @Test
-    public void someTest() {
-        IceCreamException exception = assertThrows(IceCreamException.class, () -> run());
-        assertEquals("Sorry, no vanilla left", exception.getMessage());
-    }
-}
-### !end-tests
-### !end-challenge
-
-### !challenge
-* type: multiple-choice
-* id: 31575f28-22ee-477e-b50f-9d8e97af103c
-* title: Testing exceptions with try/catch
-* topics: Java
-##### !question
-In the following test, what happens if the `registerVoter` method _doesn't_ throw
-any exception?
-
-```java
-@Test
-public void voterRegistrationThrowsVoterRegistrationException() {
-    VoterRegistration voterRegistration = new VoterRegistration();
-    Voter underAgeVoter = new Voter(17);
-
-    try {
-        voterRegistration.registerVoter(underAgeVoter);
-    } catch (VoterRegistrationException e) {
-        assertEquals("Voter is under the legal voting age", exception.getMessage());
-    } catch (Exception e) {
-        fail("Expected to throw VoterRegistrationException, but did not.");
-    }
-}
-```
-##### !end-question
-##### !options
-* It fails to compile
-* The test passes
-* The test fails
-* The test throws a `RuntimeException`
-##### !end-options
-##### !answer
-The test passes
-##### !end-answer
-### !end-challenge
+<!--END CHALLENGE-->
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -1470,51 +1203,5 @@ Each time you invoke a method in Java it creates a new:
 ##### !answer
 Stack frame
 ##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: e64a17dc-910a-405e-8d82-505b218b7a69
-* title: Stored primitives
-* topics: Java
-##### !question
-Primitives are stored on the:
-##### !end-question
-##### !options
-* Stack
-* Heap
-* Disk
-* CPU
-##### !end-options
-##### !answer
-Stack
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 71677836-d973-4f78-8a4c-1457a4a10010
-* title: Creating objects
-* topics: Java
-##### !question
-When creating an object:
-##### !end-question
-##### !options
-* it will exist on the stack with a hash code reference added to the heap
-* it will exist on the heap with a hash code reference added to the stack
-* it will exist in a CPU thread and remain until cleaned up by garbage collection
-* it will exist on the hard disk and remain until cleaned up by garbage collection
-##### !end-options
-##### !answer
-it will exist on the heap with a hash code reference added to the stack
-##### !end-answer
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
