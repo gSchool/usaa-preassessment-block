@@ -26,19 +26,6 @@ Standards:
         Autoscore: false
         MaxCheckpointSubmissions: 1
   -
-    Title: Spring
-    Description: Spring
-    UID: 38008dd81c2f4d7985ecf6e0ce8af1d1
-    SuccessCriteria:
-      - success criteria
-    ContentFiles:
-      -
-        Type: Checkpoint
-        UID: 812346cab277fa42ef9724d7dce4117b
-        Path: /units/02-Spring/02-Spring.checkpoint.md
-        Autoscore: false
-        MaxCheckpointSubmissions: 1
-  -
     Title: Javascript
     Description: Javascript
     UID: 9e13b69d1d2da927102acaaaf7154a37
@@ -49,18 +36,5 @@ Standards:
         Type: Checkpoint
         UID: a0f548f7f8d546db0b9f00a9667bdb46
         Path: /units/03-Javascript/03-JavaScript.checkpoint.md
-        Autoscore: false
-        MaxCheckpointSubmissions: 1
-  -
-    Title: React
-    Description: React
-    UID: 50ce2da63bea6a618e7578fa50690040
-    SuccessCriteria:
-      - success criteria
-    ContentFiles:
-      -
-        Type: Checkpoint
-        UID: 095745fbf6fd59ae848dd8180465e19b
-        Path: /units/04-React/04-React.checkpoint.md
         Autoscore: false
         MaxCheckpointSubmissions: 1
