@@ -2,52 +2,6 @@
 
 This assessment is to help determine which courses need to be taken and not an evaluation of your job performance.  If you do not know the answer to the question please do not try to research the answer, just leave it blank.  Guessing on a question or researching the answer could skew the results that help us identify what materials to cover.
 
-## Request and Response
-
-### !challenge
-* type: short-answer
-* id: be3750fb-34d7-4ef1-a770-263a16495013
-* title: Hash
-* topics: Spring
-##### !question
-What is the path of this URL?
-
-```
-https://example.com/app/#/orders/2
-```
-##### !end-question
-##### !answer
-/(^\/)?app/
-##### !end-answer
-##### !placeholder
-Enter the path
-##### !end-placeholder
-### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 550b76f3-77db-4aa1-b5b2-8d2ca09af53b
-* title: Steps for running spring mvc tests
-* topics: Spring
-##### !question
-Which steps must you take to set up a test class for running spring mvc tests?
-##### !end-question
-##### !options
-* Add `@RunWith` annotation to the class
-* Add `@WebMvcTest` annotation to the class
-* Add `@MockMvc` annotation to the class
-* Add `@RunWith` annotation to each method in the class
-* Add `MockMvc` filed with `@Autowired` annotation
-##### !end-options
-##### !answer
-* Add `@RunWith` annotation to the class
-* Add `@WebMvcTest` annotation to the class
-* Add `MockMvc` filed with `@Autowired` annotation
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
@@ -134,64 +88,6 @@ host: example.com
 ##### !end-answer
 ### !end-challenge
 
-### !challenge
-* type: multiple-choice
-* id: 1d150a3e-dc88-47c2-aef4-dd73420bf822
-* title: Querystring Question
-* topics: Spring
-##### !question
-Which technique would be the most appropriate for the following scenario?
-
-You are implementing an endpoint where users can send in arbitrary values, and you need to store them all.
-
-For example, your endpoint would need to accept the following:
-
-- `/your-endpoint?method=cash&price=12.05`
-- `/your-endpoint?item=CD&artist=Sondheim`
-##### !end-question
-##### !options
-- Defining a method with individual `@RequestParam` parameters
-- Defining a method with a `Map<String,String>` parameter
-- Defining a method with a custom object parameter
-##### !end-options
-##### !answer
-Defining a method with a `Map<String,String>` parameter
-##### !end-answer
-### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 2780f64f-d708-4529-adce-839ac64be274
-* title: GET request
-* topics: Spring
-##### !question
-If the following GET request is being made to the API:
-
-```text
-http://localhost:3000/blog/121/post/82
-```
-
-What is the correct string literal that should go inside the `@GetMapping()` method in the code below to receive that request?
-
-```java
-@GetMapping(/* What goes here? */)
-public String getPostForBlog(@PathVariable int blogId, @PathVariable int postId) {
-    return String.format("blogId is %d; postId is %d", blogId, postId);
-}
-```
-##### !end-question
-##### !answer
-/\/blog\/{blogId}\/post\/{postId}/
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
@@ -242,8 +138,6 @@ Content-Type: application/json
 @RequestHeader
 ##### !end-answer
 ### !end-challenge
-
-## JSON Endpoints
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -423,55 +317,6 @@ What steps are necessary to access JSON data in a REST Controller?
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: checkbox
-* id: bb00589b-675a-4b8c-9023-0f185b01a6be
-* title: Immutable classes
-* topics: Java
-##### !question
-Immutable classes have:
-##### !end-question
-##### !options
-* No setters
-* No getters
-* Only private access modifiers
-* Only default access modifiers
-* Only final fields
-##### !end-options
-##### !answer
-* No setters
-* Only final fields
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 70d9d311-f5c7-462d-bb77-40bdd3626770
-* title: Immutable with Jackson
-* topics: Spring
-##### !question
-For Jackson to work with immutable objects you must:
-##### !end-question
-##### !options
-* Annotate constructor with `@JsonCreator`
-* Annotate each field with `@JsonProperty`
-* Annotate constructor parameters with `@JsonProperty`
-* Annotate the class with `@JsonCreator`
-##### !end-options
-##### !answer
-* Annotate constructor with `@JsonCreator`
-* Annotate constructor parameters with `@JsonProperty`
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: multiple-choice
 * id: 4d676fda-7e9d-4e0f-be84-f9e75bce922e
 * title: Which error?
@@ -492,8 +337,6 @@ If the `Content-Type` header is not set correctly you may get a:
 ##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
-
-## CRUD APIs
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -564,36 +407,6 @@ Which annotations should be added to the primary key field of an entity?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: d85798d8-f8c2-4f63-9c5a-3a3042531dce
-* title: Add dependency to build.gradle
-* topics: Gradle
-##### !question
-Given the following artifact information, which line should be added to the dependencies section of the `build.gradle` file to add this artifact as a dependency?
-
-```json
-"happy-hour" : {
-  "groupId" : "org.galvanize.cloud",
-  "artifactId" : "wine-glass",
-  "scope" : "compile",
-  "bom" : "cloud-bom"
-}
-```
-##### !end-question
-##### !options
-* compile('org.galvanize.cloud:wine-glass')
-* compile('wine-glass:org.galvanize.cloud')
-* compile('org.galvanize.cloud:cloud-bom')
-* cloud-bom('org.galvanize.cloud:wine-glass')
-##### !end-options
-##### !answer
-compile('org.galvanize.cloud:wine-glass')
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
 * id: 1e8006fd-e5ec-42d8-a02c-844a0e34dda0
 * title: JPA repositories
 * topics: Spring
@@ -636,47 +449,6 @@ setting the primary key type
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: multiple-choice
-* id: 0486af4d-a5d1-4666-8a61-8f9bd2fe16bb
-* title: JPA repository discovery
-* topics: Spring
-##### !question
-When Spring data JPA discovers an interface that extends CrudRepository it will:
-##### !end-question
-##### !options
-* Throws an exception if there is no Java class that implements the interface
-* Triggers a warning if there is no Java class that implements the interface
-* Puts an instantiated class that implements the interface into an application context
-* Generates the SQL statements required to update the SQL server with the repository schema
-##### !end-options
-##### !answer
-Puts an instantiated class that implements the interface into an application context
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-### !challenge
-* type: multiple-choice
-* id: 2ba12145-b309-4b2e-af40-0bfdc1d587a4
-* title: DDL-AUTO Prod
-* topics: Spring
-##### !question
-### Which is best?
-Which ddl-auto setting is most appropriate for production?
-##### !end-question
-##### !options
-* create
-* create-drop
-* validate
-* update
-##### !end-options
-##### !answer
-validate
-##### !end-answer
-### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: short-answer
 * id: a178142a-71a7-4bad-b70d-60c0e2030d0d
 * title: Updating records with JPA
@@ -692,42 +464,6 @@ The ________ function on a JPA repository will update a record on the database.
 ##### !end-placeholder
 ### !end-challenge
 <!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 5901c4fa-d80b-4d7b-825d-0d1d6f75a192
-* title: Return list of addresses based on city
-* topics: Spring
-##### !question
-Assume there is a table called Addresses with the following field names:
-
-* Id
-* PersonId
-* Address1
-* Address2
-* City
-* State
-* Zip
-
-What should the method name be on this repository to return a list of addresses with a given city from the Address table.
-
-```java
-public interface AddressRepository extends CrudRepository<Address,Long> {
-    List<Address> ___________(String city);  // Fill in the blank method name
-}
-```
-##### !end-question
-##### !answer
-/findByCity/
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-### !end-challenge
-<!--END CHALLENGE-->
-
-## IoC and Configuration
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
@@ -869,56 +605,6 @@ Singleton
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: short-answer
-* id: e772dd0c-4537-4ad1-8b0f-ec8a1a12e8d1
-* title: Mocking a bean inside a test
-* topics: Spring
-##### !question
-In order to isolate a test to just a controller, you can use the `@WebMvcTest` annotation on the test class and _________ to mock an autowired service class.
-##### !end-question
-##### !answer
-/(^(@)?MockBean|^(@)?InjectMocks)/
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 5661f1b3-ce7a-4f06-b3d1-9eee1fbfddbf
-* title: Annotation for gathering configuration settings
-* topics: Spring
-##### !question
-Add the ________ annotation to a class to fill it with configuration settings?
-##### !end-question
-##### !answer
-/ConfigurationProperties/
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: a2b25a9d-f8c8-4109-b095-a13cb797aeec
-* title: Spring actuator information route
-* topics: Spring
-##### !question
-With Spring actuator installed, which route must you navigate to in order to view information on memory, processors, uptime, and other metrics about your app and system?
-##### !end-question
-##### !answer
-/metrics/i
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-### !end-challenge
-<!--END CHALLENGE-->
-
-## RestTemplates
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: checkbox
 * id: af8f7748-cf71-41eb-80c4-e36f81e170f1
 * title: Rest Templates are responsible for
@@ -937,33 +623,5 @@ Rest Templates are responsible for:
 * Sending requests to web servers
 * Parsing responses from web servers
 ##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 75d56b12-a4dc-42d7-8106-426238eaca55
-* title: Application.properties file
-* topics: Spring
-##### !question
-```java
-@ConfigurationProperties("blogService")
-public class BlogServiceConfig {
-    private String url;
-
-    public String getURL() { return this.url; }
-    public void setURL(String url) { this.url = url; }
-}
-```
-
-Assuming the code above, what is the name of the property that must be added to the application.properties file to set the URL value?
-##### !end-question
-##### !answer
-/blogService\.url/
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
 ### !end-challenge
 <!--END CHALLENGE-->
