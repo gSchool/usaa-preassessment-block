@@ -4,27 +4,6 @@ This assessment helps determine which courses need to be taken and is *not* an e
 
 <!--BEGIN CHALLENGE-->
 ### !challenge
-* type: multiple-choice
-* id: 9aa5f54c-0c31-402f-b6f1-c3af6370bda0
-* title: A reference to the central repository
-* topics: git
-##### !question
-The central repository where changes are sent is generally called the:
-##### !end-question
-##### !options
-* Head
-* Remote
-* Main
-* Trunk
-##### !end-options
-##### !answer
-* Remote
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
 * type: short-answer
 * id: 99f58f7a-3e37-400e-9b3f-6c7e7e912d44
 * title: Sending changes
@@ -34,21 +13,6 @@ The `git ____` command sends the bundled changes from the local server to the ce
 ##### !end-question
 ##### !answer
 /push/
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 2530a811-b61e-409e-922d-14f94bd2e2b5
-* title: See a list of change bundles
-* topics: git
-##### !question
-Which git command can you use to see a list of commits in your local repository?
-##### !end-question
-##### !answer
-/(git )?log/
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
@@ -80,75 +44,6 @@ Use the `git _____` command to copy commits from the remote server to the local 
 ##### !answer
 /fetch/
 ##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 854e7a16-6762-44fe-bb68-0217eed4ec3e
-* title: Different histories
-* topics: git
-##### !question
-When the commit histories are different between the current branch and a remote reference branch then a _______ must happen to include the remote changes for new local work.
-##### !end-question
-##### !options
-* fetch & merge
-* fetch
-* merge & commit
-* fetch & commit
-##### !end-options
-##### !answer
-* merge & commit
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 9323ea7e-4709-4d6e-909b-945228fbfa90
-* title: Graph composition
-* topics: git
-##### !question
-A graph is made up of ______ and _______.
-##### !end-question
-##### !options
-* context and references
-* items and pointers
-* nodes and edges
-* points and legs
-##### !end-options
-##### !answer
-* nodes and edges
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: b812a825-92e6-46ce-9705-65c32b9eaa47
-* title: History order (command line)
-* topics: git
-##### !question
-When viewing the Git DAG from the command line, the most recent commits are:
-##### !end-question
-##### !options
-* At the bottom
-* At the top
-* To the left
-* To the right
-##### !end-options
-##### !answer
-* At the top
-##### !end-answer
-##### !explanation
-##### !end-explanation
 ### !end-challenge
 <!--END CHALLENGE-->
 
@@ -188,21 +83,6 @@ The HEAD represents (check all that apply):
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 94a0119c-13cd-48f8-a484-52dedd33c237
-* title: Switching the HEAD
-* topics: git
-##### !question
-Use the `git ______ [branch name]` command to switch the HEAD to another branch.
-##### !end-question
-##### !answer
-/checkout/
-##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
 
