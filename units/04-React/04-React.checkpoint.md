@@ -2,29 +2,6 @@
 
 This assessment is to help determine which courses need to be taken and not an evaluation of your job performance.  If you do not know the answer to the question please do not try to research the answer, just leave it blank.  Guessing on a question or researching the answer could skew the results that help us identify what materials to cover.
 
-## Components
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: e0abc528-13ee-4847-9428-f2d028b7749b
-* title: Adding classes
-* topics: React
-##### !question
-When writing a JSX tag, use ______ instead of class to add the class attribute.
-##### !end-question
-##### !answer
-/className/
-##### !end-answer
-##### !placeholder
-[Type your answer here]
-##### !end-placeholder
-##### !explanation
-Remember, JavaScript is a case sensitive language so className works but classname or ClassName don't.
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
@@ -42,29 +19,6 @@ A functional component is a component that:
 ##### !end-options
 ##### !answer
 returns a single React element
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
-* id: 2df78a2c-67d0-4fd2-8d7a-87a3fb5965de
-* title: Use of Props
-* topics: React
-##### !question
-What are props used for?
-##### !end-question
-##### !options
-* Embedding components
-* Keeping data
-* Setting attributes
-* Passing data
-##### !end-options
-##### !answer
-Passing data
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -140,32 +94,6 @@ What data type is returned from the map method?
 ##### !end-options
 ##### !answer
 Array
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: cdd8dd36-ce52-4a03-9740-bc3ea130142d
-* title: Characteristics of a Class component
-* topics: React
-##### !question
-Which characteristics are attributable to Class components?
-##### !end-question
-##### !options
-* A JavaScript class that extends React.Component
-* Uses react hooks
-* Has a render method
-* Returns a single React Element
-* Uses the arrow syntax
-##### !end-options
-##### !answer
-* A JavaScript class that extends React.Component
-* Has a render method
-* Returns a single React Element
 ##### !end-answer
 ##### !explanation
 ##### !end-explanation
@@ -308,47 +236,6 @@ this.setState(prevState => ({message: "Hello Galvanize!"}));
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: caba2414-779b-4a68-a3da-b43d76a2db33
-* title: Default submit behavior
-* topics: React, JavaScript
-##### !question
-The default behavior when submitting a form is:
-##### !end-question
-##### !options
-* Send a POST request with the form values as query parameters
-* Send a GET request with the form values as query parameters
-* Send a POST request with the form values in the body
-##### !end-options
-##### !answer
-* Send a GET request with the form values as query parameters
-##### !end-answer
-##### !explanation
-##### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-## Fetching Data
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 5d52a2ba-c67e-4faf-b7af-334715b80f8b
-* title: Fill in the blank
-* topics: React
-##### !question
-React has component ________ methods that are called at different parts of the React component life time.  One of which is called the `componentDidMount` method.
-##### !end-question
-##### !answer
-/(life.*cycle)/i
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: multiple-choice
 * id: d4336d5b-cbdd-4690-8ec6-ddd415a27ea2
 * title: When is it called?
 * topics: React
@@ -406,57 +293,6 @@ We use the javascript _______ method to request data from an HTTP source.
 ### !end-challenge
 <!--END CHALLENGE-->
 
-## Deployment
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 221e99f9-a2ae-41e1-9e62-c3630826ecfb
-* title: Building a project
-* topics: React
-##### !question
-Select the items that will be created when you build your React application:
-##### !end-question
-##### !options
-* compress zip file
-* HTML file
-* minified javascript file
-* fonts needed by the app
-* images needed by the app
-##### !end-options
-##### !answer
-* HTML file
-* minified javascript file
-* fonts needed by the app
-* images needed by the app
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 5a093d38-3551-4230-a696-f68f3d3aa70d
-* title: Deploying to different domains
-* topics: React
-##### !question
-When deploying a React client side application to a different domain than the server side app:
-##### !end-question
-##### !options
-* You need environment specific configuration variables when building the client side application
-* You must keep the client side application in a separate git repository from the server side application
-* You must create separate CI pipelines for the server side and client side applications
-* You must specify the full domain location of the API in the fetch call
-* The server must have Cross Origin Resource Sharing configured
-##### !end-options
-##### !answer
-* You need environment specific configuration variables when building the client side application
-* You must specify the full domain location of the API in the fetch call
-* The server must have Cross Origin Resource Sharing configured
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
@@ -477,68 +313,6 @@ Node will pass the request to the API server
 ### !end-challenge
 <!--END CHALLENGE-->
 
-## Redux
-
-### !challenge
-* type: multiple-choice
-* id: f97f7eab-4c10-47be-b045-cef6f987d718
-* title: Reducer Review
-* topics: React, Redux
-##### !question
-What are the two parameters (not necessarily in order) that the reducer function will accept?
-##### !end-question
-##### !options
-* `state` and `action creator`
-* `action` and `reducer`
-* `action` and `state`
-* `state` and `reducer`
-##### !end-options
-##### !answer
-`action` and `state`
-##### !end-answer
-### !end-challenge
-
-### !challenge
-* type: multiple-choice
-* id: 4ebcc152-7c15-41d2-8c1c-1d0a61183c59
-* title: React-Redux Review
-* topics: React, Redux
-##### !question
-What does `Provider` not do?
-##### !end-question
-##### !options
-* Provides the store for components to connect to
-* Provides the `connect` method for components to us
-* Filters the content to only what the application needs
-* Contain a new instance of the store
-##### !end-options
-##### !answer
-Filters the content to only what the application needs
-##### !end-answer
-### !end-challenge
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 1b1417db-8485-43ec-a5dd-91f8b34da5db
-* title: Connect function
-* topics: React, Redux
-##### !question
-The `connect()` function takes the parameters of:
-##### !end-question
-##### !options
-* mapStateToProps
-* mapDispatchToProps
-* connecting component
-* parent component
-##### !end-options
-##### !answer
-* mapStateToProps
-* mapDispatchToProps
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
@@ -546,7 +320,7 @@ The `connect()` function takes the parameters of:
 * title: a new state object
 * topics: React, Redux
 ##### !question
-Each case statement of the reducer should return:
+Each case statement of a redux reducer should return:
 ##### !end-question
 ##### !options
 * an action creator
@@ -638,72 +412,6 @@ a reducer
 ##### !end-answer
 ### !end-challenge
 <!--END CHALLENGE-->
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: short-answer
-* id: 4a44f964-803b-4509-a920-76825423e41b
-* title: Application state
-* topics: React, Redux
-##### !question
-Redux stores all of the application state in one place, called the _________.
-##### !end-question
-##### !answer
-/store/i
-##### !end-answer
-##### !placeholder
-[Type your answer here...]
-##### !end-placeholder
-### !end-challenge
-<!--END CHALLENGE-->
-
-## React router
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: checkbox
-* id: 3d698edc-8678-48b1-8791-4a33bd6b15ca
-* title: HTTP requests
-* topics: React
-##### !question
-When making an HTTP request to a server the following things happen:
-##### !end-question
-##### !options
-* The server parses the request
-* The client parses the request
-* The server requests info from the client
-* The server reads the path
-* The server creates a response
-* The client creates a response
-##### !end-options
-##### !answer
-* The server parses the request
-* The server reads the path
-* The server creates a response
-##### !end-answer
-### !end-challenge
-<!--END CHALLENGE-->
-
-### !challenge
-* type: multiple-choice
-* id: 7320a7ff-e55c-4643-9a0e-b96058774f9a
-* title: Which route will not render?
-* topics: React
-##### !question
-If you were to navigate to `/example/1/things`, which of these routes would render?
-##### !end-question
-##### !options
-
-* `<Route exact path="/example" component={Example} />`
-* `<Route exact path="/example/1" component={Example} />`
-* `<Route exact path="/example/2" component={Example}  />`
-* None of the above
-
-##### !end-options
-##### !answer
-None of the above
-##### !end-answer
-### !end-challenge
 
 ### !challenge
 * type: multiple-choice

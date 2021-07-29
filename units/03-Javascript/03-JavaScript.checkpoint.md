@@ -131,95 +131,6 @@ describe('orders array', function() {
 
 ### !end-challenge
 
-## Iterations and Conditionals
-
-<!--BEGIN CHALLENGE-->
-### !challenge
-* type: code-snippet
-* language: javascript
-* id: 233483f6-980b-4f1f-9cef-78d2ee93c3ea
-* title: Complete the steps
-* topics: JavaScript
-### !question
-Complete all of the steps in the comments of this code:
-### !end-question
-### !setup
-### !end-setup
-### !placeholder
-```js
-function question0 (array) {
-  // Write a for loop that will print only even numbers from an array:
-  // For example: question0([ 5, 20, 11, 42, 2, 19 ]) >> [ 20, 42, 2 ]
-}
-
-function question1 (array) {
-  // Write a for loop that doubles each number in the following array. If the
-  // resulting number is greater than 12, print it to the console:
-  // For example: [ 2, 4, 8, 16 ] would print the numbers 16 and 32
-}
-
-function question2 (array) {
-  // Write a for loop to iterate over every element in the following array:
-  // [ 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun' ]
-  //
-  // Using a switch statement, do the following:
-  // - If the day is on a weekend, print "Yay, it's the weekend!"
-  // - If the day is Friday, print "Almost there..."
-  // - If the day is Monday, print "I hate Mondays more than Garfield."
-  // - Otherwise, print "Everybody's working for the weekend."
-}
-```
-### !end-placeholder
-### !tests
-```js
-const assert = chai.assert;
-var sinon = require('mocha-sinon');
-
-function stubFn() { this.sinon.stub(console, 'log') }
-
-describe('Test results', () => {
-
-  beforeEach(stubFn);
-
-  it('question0', () => {
-    var input = [ 5, 20, 11, 42, 2, 19 ];
-    var expected = [ 20, 42, 2 ];
-    question0(input);
-
-    assert.equal(console.log.callCount, expected.length, "console.log not called the correct number of times.");
-    expected.forEach(num => assert.isTrue(console.log.calledWith(num)), "Values not properly passed to console.log.");
-  })
-
-  it('question1', () => {
-    const input = [ 2, 4, 8, 16 ];
-    const expected = [ 16, 32 ];
-    question1(input)
-
-    assert.equal(console.log.callCount, expected.length, "console.log not called the correct number of times.");
-    expected.forEach(num => assert.isTrue(console.log.calledWith(num)), "Values not properly passed to console.log.");
-  })
-
-  it('question2', () => {
-    const input = [ 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun' ];
-    question2(input);
-
-    assert.equal(console.log.callCount, input.length, "console.log not called the correct number of times.");
-    assert.isTrue(console.log.calledWith('I hate Mondays more than Garfield.'), "Incorrect value printed.");
-    assert.isTrue(console.log.calledWith('Everybody\'s working for the weekend.'), "Incorrect value printed.");
-    assert.isTrue(console.log.calledWith('Almost there...'), "Incorrect value printed.");
-    assert.isTrue(console.log.calledWith('Yay, it\'s the weekend!'), "Incorrect value printed.");
-  })
-})
-
-```
-### !end-tests
-### !explanation
-### !end-explanation
-### !end-challenge
-<!--END CHALLENGE-->
-
-## Functions
-
 ### !challenge
 * type: code-snippet
 * language: javascript
@@ -270,40 +181,6 @@ describe('intenseString', function() {
 ```
 ### !end-tests
 ### !end-challenge
-
-<!-- Question -->
-
-### !challenge
-* type: code-snippet
-* language: javascript
-* id: 69803030-E0EF-46AF-B064-B2D25B81F83D
-* title: Functions Checkpoint Mean
-* standard_uuids: WD-CAYKDAkEDQ4
-* topics: JavaScript
-### !question
-Implement the functions below for [mean](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/a/mean-median-and-mode-review).
-### !end-question
-### !placeholder
-```js
-function mean(numbers) {
-  // your code here
-}
-```
-### !end-placeholder
-### !tests
-```js
-describe('mean function', function() {
-
-    it("can compute the mean", function() {
-      expect(mean([10, 10, 15, 20, 20])).to.equal(15)
-    })
-
-})
-```
-### !end-tests
-### !end-challenge
-
-## Debugging
 
 ### !challenge
 * type: multiple-choice
