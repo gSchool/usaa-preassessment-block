@@ -75,7 +75,7 @@ Standards:
       -
         Type: Checkpoint
         UID: 9a64c81a9e08c5a99076398595a8786c
-        Path: /units/01-Java/01-Java.checkpoint.md
+        Path: /units/05-Java-Post/01-Java.checkpoint.md
         Autoscore: false
         MaxCheckpointSubmissions: 1
   -
@@ -88,7 +88,7 @@ Standards:
       -
         Type: Checkpoint
         UID: 812346cab277fa42ef9724d7dce4228c
-        Path: /units/02-Spring/02-Spring.checkpoint.md
+        Path: /units/06-Spring-Post/02-Spring.checkpoint.md
         Autoscore: false
         MaxCheckpointSubmissions: 1
   -
@@ -101,6 +101,6 @@ Standards:
       -
         Type: Checkpoint
         UID: a0f548f7f8d546db0b9f00a9667baa57
-        Path: /units/03-Javascript/03-JavaScript.checkpoint.md
+        Path: /units/07-Javascript-Post/03-JavaScript.checkpoint.md
         Autoscore: false
         MaxCheckpointSubmissions: 1
