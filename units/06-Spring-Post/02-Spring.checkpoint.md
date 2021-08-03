@@ -6,7 +6,7 @@ This assessment is to help determine which courses need to be taken and not an e
 
 ### !challenge
 * type: short-answer
-* id: be3750fb-34d7-4ef1-a770-263a16495013
+* id: be3750fb-34d7-4ef1-a770-263a16495014
 * title: Hash
 * topics: Spring
 ##### !question
@@ -27,7 +27,7 @@ Enter the path
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: 550b76f3-77db-4aa1-b5b2-8d2ca09af53b
+* id: 550b76f3-77db-4aa1-b5b2-8d2ca09af53c
 * title: Steps for running spring mvc tests
 * topics: Spring
 ##### !question
@@ -51,7 +51,7 @@ Which steps must you take to set up a test class for running spring mvc tests?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 80960193-df86-43b1-b76e-99171d0f2862
+* id: 80960193-df86-43b1-b76e-99171d0f2863
 * title: WebMvcTest annotation
 * topics: Spring
 ##### !question
@@ -72,7 +72,7 @@ load the minimal configuration to test the controller
 
 ### !challenge
 * type: multiple-choice
-* id: 05c92ddd-b6ea-48a4-bdce-582da0ece694
+* id: 05c92ddd-b6ea-48a4-bdce-582da0ece695
 * title: Endpoint Question
 * topics: Spring
 ##### !question
@@ -111,7 +111,7 @@ A 404 Not Found
 
 ### !challenge
 * type: short-answer
-* id: 476172e9-2071-4f6e-b25f-2a03c636b46f
+* id: 476172e9-2071-4f6e-b25f-2a03c636b47f
 * title: Endpoints Question
 ##### !question
 Write the correct `@*Mapping` annotation that would handle both of the following HTTP requests:
@@ -136,7 +136,7 @@ host: example.com
 
 ### !challenge
 * type: multiple-choice
-* id: 1d150a3e-dc88-47c2-aef4-dd73420bf822
+* id: 1d150a3e-dc88-47c2-aef4-dd73420bf8223
 * title: Querystring Question
 * topics: Spring
 ##### !question
@@ -162,7 +162,7 @@ Defining a method with a `Map<String,String>` parameter
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: 2780f64f-d708-4529-adce-839ac64be274
+* id: 2780f64f-d708-4529-adce-839ac64be275
 * title: GET request
 * topics: Spring
 ##### !question
@@ -195,7 +195,7 @@ public String getPostForBlog(@PathVariable int blogId, @PathVariable int postId)
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 8edce170-a1d0-4a7f-9a42-ccc2720098cd
+* id: 8edce170-a1d0-4a7f-9a42-ccc2720098cf
 * title: Custom class parameter
 * topics: Spring
 ##### !question
@@ -217,7 +217,7 @@ Which annotation is used to pass the body of a request to a custom class paramet
 
 ### !challenge
 * type: multiple-choice
-* id: 03d768c6-5b7d-4f8e-a90a-eadadb5529dd
+* id: 03d768c6-5b7d-4f8e-a90a-eadadb5529df
 * title: HTTP Annotations
 * topics: Spring
 ##### !question
@@ -248,7 +248,7 @@ Content-Type: application/json
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 5fd41069-6ced-4932-b548-84b429c8835f
+* id: 5fd41069-6ced-4932-b548-84b429c8835e
 * title: Using jsonPath
 * topics: Spring
 ##### !question
@@ -324,7 +324,7 @@ D
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: 00ed2e82-87a8-494e-882c-709c31db8dc6
+* id: 00ed2e82-87a8-494e-882c-709c31db8dc7
 * title: JSON represents
 * topics: Spring, JSON
 ##### !question
@@ -354,7 +354,7 @@ JSON can represent:
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 6887760f-e3ca-4daa-aa89-48154aa535a3
+* id: 6887760f-e3ca-4daa-aa89-48154aa535a34
 * title: Separating properties from values
 * topics: Spring, JSON
 ##### !question
@@ -378,7 +378,7 @@ Which symbol(s) are used to separate properties from values in JSON?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 681fac04-09b6-45fc-a57b-66ced874b044
+* id: 681fac04-09b6-45fc-a57b-66ced874b045
 * title: Defining arrays
 * topics: Spring, JSON
 ##### !question
@@ -402,7 +402,7 @@ Which symbol(s) are used to define arrays in JSON?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: 749ce5bc-5b20-4c4b-82cc-9536089a292a
+* id: 749ce5bc-5b20-4c4b-82cc-9536089a292b
 * title: Accessing JSON data
 * topics: Spring
 ##### !question
@@ -424,7 +424,7 @@ What steps are necessary to access JSON data in a REST Controller?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: bb00589b-675a-4b8c-9023-0f185b01a6be
+* id: bb00589b-675a-4b8c-9023-0f185b01a6bf
 * title: Immutable classes
 * topics: Java
 ##### !question
@@ -449,7 +449,7 @@ Immutable classes have:
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: 70d9d311-f5c7-462d-bb77-40bdd3626770
+* id: 70d9d311-f5c7-462d-bb77-40bdd3626771
 * title: Immutable with Jackson
 * topics: Spring
 ##### !question
@@ -473,7 +473,7 @@ For Jackson to work with immutable objects you must:
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 4d676fda-7e9d-4e0f-be84-f9e75bce922e
+* id: 4d676fda-7e9d-4e0f-be84-f9e75bce922f
 * title: Which error?
 * topics: Spring
 ##### !question
@@ -498,7 +498,7 @@ If the `Content-Type` header is not set correctly you may get a:
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 2e38ac7a-8cfa-4c80-9f9a-e25887259610
+* id: 2e38ac7a-8cfa-4c80-9f9a-e25887259611
 * title: JPA meaning
 * topics: Spring
 ##### !question
@@ -518,7 +518,7 @@ Java Persistence API
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: 07326d1d-2c75-4e20-b148-f73eb7c4595b
+* id: 07326d1d-2c75-4e20-b148-f73eb7c4595a
 * title: Connection string property
 * topics: Spring
 ##### !question
@@ -538,7 +538,7 @@ What is the property in the `application.properties` file that specifies the con
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: 3eb4412a-ce3e-401c-8320-8ae002ccecc6
+* id: 3eb4412a-ce3e-401c-8320-8ae002ccecc7
 * title: Primary key field
 * topics: Spring
 ##### !question
@@ -564,7 +564,7 @@ Which annotations should be added to the primary key field of an entity?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: d85798d8-f8c2-4f63-9c5a-3a3042531dce
+* id: d85798d8-f8c2-4f63-9c5a-3a3042531dcf
 * title: Add dependency to build.gradle
 * topics: Gradle
 ##### !question
@@ -594,7 +594,7 @@ compile('org.galvanize.cloud:wine-glass')
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 1e8006fd-e5ec-42d8-a02c-844a0e34dda0
+* id: 1e8006fd-e5ec-42d8-a02c-844a0e34dda1
 * title: JPA repositories
 * topics: Spring
 ##### !question
@@ -616,7 +616,7 @@ Interfaces
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 9c33a7c3-48f2-4a1b-a2db-504cebfb6b36
+* id: 9c33a7c3-48f2-4a1b-a2db-504cebfb6b37
 * title: Second JPA repository type parameter
 * topics: Spring
 ##### !question
@@ -637,7 +637,7 @@ setting the primary key type
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 0486af4d-a5d1-4666-8a61-8f9bd2fe16bb
+* id: 0486af4d-a5d1-4666-8a61-8f9bd2fe16ba
 * title: JPA repository discovery
 * topics: Spring
 ##### !question
@@ -657,7 +657,7 @@ Puts an instantiated class that implements the interface into an application con
 
 ### !challenge
 * type: multiple-choice
-* id: 2ba12145-b309-4b2e-af40-0bfdc1d587a4
+* id: 2ba12145-b309-4b2e-af40-0bfdc1d587a5
 * title: DDL-AUTO Prod
 * topics: Spring
 ##### !question
@@ -678,7 +678,7 @@ validate
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: a178142a-71a7-4bad-b70d-60c0e2030d0d
+* id: a178142a-71a7-4bad-b70d-60c0e2030d0a
 * title: Updating records with JPA
 * topics: Spring
 ##### !question
@@ -696,7 +696,7 @@ The ________ function on a JPA repository will update a record on the database.
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: 5901c4fa-d80b-4d7b-825d-0d1d6f75a192
+* id: 5901c4fa-d80b-4d7b-825d-0d1d6f75a191
 * title: Return list of addresses based on city
 * topics: Spring
 ##### !question
@@ -732,7 +732,7 @@ public interface AddressRepository extends CrudRepository<Address,Long> {
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 914ee522-9d16-49bf-9a1c-763fc4de2b6f
+* id: 914ee522-9d16-49bf-9a1c-763fc4de2b6a
 * title: Example code
 * topics: Spring
 ##### !question
@@ -775,7 +775,7 @@ Hard coded dependency
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: d2d2ea7a-2313-4adf-ab1b-95d829d184d7
+* id: d2d2ea7a-2313-4adf-ab1b-95d829d184d8
 * title: Example code
 * topics: Spring
 ##### !question
@@ -823,7 +823,7 @@ Constructor injection
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: 8f479d3f-91df-40b3-8ec7-f3c725d1ff6b
+* id: 8f479d3f-91df-40b3-8ec7-f3c725d1ff6a
 * title: Add to application context
 * topics: Spring
 ##### !question
@@ -849,7 +849,7 @@ Select the annotations that cause an instance of the class to be added to the ap
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 0805de50-d77e-454f-a9f7-07a279c499cb
+* id: 0805de50-d77e-454f-a9f7-07a279c499ca
 * title: @Bean annotation instances
 * topics: Spring
 ##### !question
@@ -870,7 +870,7 @@ Singleton
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: e772dd0c-4537-4ad1-8b0f-ec8a1a12e8d1
+* id: e772dd0c-4537-4ad1-8b0f-ec8a1a12e8d2
 * title: Mocking a bean inside a test
 * topics: Spring
 ##### !question
@@ -885,7 +885,7 @@ In order to isolate a test to just a controller, you can use the `@WebMvcTest` a
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: 5661f1b3-ce7a-4f06-b3d1-9eee1fbfddbf
+* id: 5661f1b3-ce7a-4f06-b3d1-9eee1fbfddba
 * title: Annotation for gathering configuration settings
 * topics: Spring
 ##### !question
@@ -900,7 +900,7 @@ Add the ________ annotation to a class to fill it with configuration settings?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: a2b25a9d-f8c8-4109-b095-a13cb797aeec
+* id: a2b25a9d-f8c8-4109-b095-a13cb797aeea
 * title: Spring actuator information route
 * topics: Spring
 ##### !question
@@ -920,7 +920,7 @@ With Spring actuator installed, which route must you navigate to in order to vie
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: af8f7748-cf71-41eb-80c4-e36f81e170f1
+* id: af8f7748-cf71-41eb-80c4-e36f81e170f0
 * title: Rest Templates are responsible for
 * topics: Spring
 ##### !question
@@ -943,7 +943,7 @@ Rest Templates are responsible for:
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: 75d56b12-a4dc-42d7-8106-426238eaca55
+* id: 75d56b12-a4dc-42d7-8106-426238eaca50
 * title: Application.properties file
 * topics: Spring
 ##### !question
