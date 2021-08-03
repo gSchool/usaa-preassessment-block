@@ -7,7 +7,7 @@ This assessment is to help determine which courses need to be taken and not an e
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: fe037ef6-536c-4e33-937a-9c0ec418390c
+* id: fe037ef6-536c-4e33-937a-9c0ec418391c
 * title: Where does your code go?
 * topics: Java
 ##### !question
@@ -25,7 +25,7 @@ The java code of your application should go under the _____ folder.
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 3fc55d64-5eb9-4418-a29a-861fe11c64a2
+* id: 3fc55d64-5eb9-4418-a29a-861fe11c64a3
 * title: Package names
 * topics: Java
 ##### !question
@@ -47,7 +47,7 @@ like domain names but in reverse order
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: 44c799d7-8d0a-4549-ba2c-84bf37093aa8
+* id: 44c799d7-8d0a-4549-ba2c-84bf37093aa9
 * title: Checking Gradle version
 * topics: Gradle
 ##### !question
@@ -66,7 +66,7 @@ What is the command for checking the current version of Gradle installed?
 
 ### !challenge
 * type: multiple-choice
-* id: 7583b560-0bbe-4a40-8738-e8fce0dd6da3
+* id: 7583b560-0bbe-4a40-8738-e8fce0dd6da4
 * title: Compilation Question
 * topics: Java
 ##### !question
@@ -84,7 +84,7 @@ Which command would you use to **compile** your code?
 
 ### !challenge
 * type: multiple-choice
-* id: 856a9194-63b8-4239-baec-7d67e16b02a1
+* id: 856a9194-63b8-4239-baec-7d67e16b02a2
 * title: Compilation Question
 * topics: Java
 ##### !question
@@ -103,7 +103,7 @@ Which command would you use to **run** your code?
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: c46940cf-eed7-434f-8714-a13c331e7393
+* id: c46940cf-eed7-434f-8714-a13c331e7394
 * title: What is the class-path?
 * topics: Java
 ##### !question
@@ -125,7 +125,7 @@ It tells the Java command where to find all the classes
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: short-answer
-* id: 3a9d0cd9-96bf-4bcc-afd8-c1862b866a5a
+* id: 3a9d0cd9-96bf-4bcc-afd8-c1862b866a6a
 * title: Gradle build file
 * topics: Gradle
 ##### !question
@@ -145,7 +145,7 @@ The name of the file Gradle uses to store build information is:
 ### !challenge
 * type: code-snippet
 * language: java
-* id: fb8de343-fb1f-4fa1-af70-727e8d201eca
+* id: fb8de343-fb1f-4fa1-af70-727e8d202eca
 * title: Variables
 * topics: Java
 ### !question
@@ -188,7 +188,7 @@ public class SnippetTest {
 
 ### !challenge
 * type: multiple-choice
-* id: f09c5114-2d82-4812-9063-667617cb90d2
+* id: f09c5114-2d82-4812-9063-667617cb90d4
 * title: Primitive types
 * topics: Java
 ##### !question
@@ -209,7 +209,7 @@ Which of the following is __not__ a valid Java primitive type?
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 73a825b4-eae6-4f42-a479-783e7d2f50a0
+* id: 73a825b4-eae6-4f42-a479-783e7d2f50a1
 * title: Using a for loop
 * topics: Java
 ### !question
@@ -270,7 +270,7 @@ public class SnippetTest {
 
 ### !challenge
 * type: multiple-choice
-* id: 859d66c6-7ff0-45bd-b2b4-3584fbf42b4f
+* id: 859d66c6-7ff0-45bd-b2b4-3584fbf42b5f
 * title: Comparing strings
 * topics: Java
 ##### !question
@@ -298,7 +298,7 @@ Which of the following options is the correct way to compare these two strings?
 ### !challenge
 * type: code-snippet
 * language: java
-* id: a8a17d79-de84-47ca-b587-bb715d95a53b
+* id: a8a17d79-de84-47ca-b587-bb715d95a54b
 * title: Creating a Class
 * topics: Java
 ### !question
@@ -348,7 +348,7 @@ public class SnippetTest {
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 5e3c0e09-fae5-434f-9c62-8bcc9c75f4ae
+* id: 5e3c0e09-fae5-434f-9c62-8bcc9c75f6ae
 * title: A (mostly) functioning bank account
 * topics: Java
 ### !question
@@ -417,7 +417,7 @@ public class SnippetTest {
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 4bf472fe-dffe-48ff-8c07-3cc9f13d4043
+* id: 4bf472fe-dffe-48ff-8c07-3cc9f13d4044
 * title: Using a constructor
 * topics: Java
 ### !question
@@ -503,7 +503,7 @@ public class SnippetTest {
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 53fc679c-2f4e-4a84-9438-5dbf72e65a9b
+* id: 53fc679c-2f4e-4a84-9438-5dbf72e66a9b
 * title: RGR process
 * topics: TDD
 ##### !question
@@ -526,7 +526,7 @@ Test-Driven Development
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: checkbox
-* id: a4272305-b457-406c-b32b-e6f537845b04
+* id: a4272305-b457-406c-b32b-e6f537845b05
 * title: Rules of RGR
 * topics: TDD
 ##### !question
@@ -550,7 +550,7 @@ The rule or rules to follow when using red-green-refactor is/are:
 
 ### !challenge
 * type: multiple-choice
-* id: 79b223ca-cd8e-4b84-b576-3666c0849be2
+* id: 79b223ca-cd8e-4b84-b576-3666c0849be3
 * title: Casting from a specific to a general type
 * topics: Java
 ##### !question
@@ -576,7 +576,7 @@ Yes, but it is unnecessary.
 
 ### !challenge
 * type: multiple-choice
-* id: 9cb01e47-9b42-4696-9a43-62e35c346cc2
+* id: 9cb01e47-9b42-4696-9a43-62e35c346cc3
 * title: Instantiating Arrays
 * topics: Java
 ##### !question
@@ -597,7 +597,7 @@ Which of the following is a legal instantiation of a new `String` array?
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 8bab92fb-6e00-4014-84ce-8a5446692658
+* id: 8bab92fb-6e00-4014-84ce-8a5446692659
 * title: Basic operations with ArrayLists
 * topics: Java
 ### !question
@@ -658,7 +658,7 @@ public class SnippetTest {
 
 ### !challenge
 * type: multiple-choice
-* id: 7cc9d1eb-e5f1-475f-b91d-4610bf73214e
+* id: 7cc9d1eb-e5f1-475f-b91d-4610bf73215e
 * title: Instantiating a HashMap
 * topics: Java
 ##### !question
@@ -679,7 +679,7 @@ strings that can be looked up by keys that are arbitrary integers?
 
 ### !challenge
 * type: multiple-choice
-* id: 9470ee0f-4b38-43de-aaa2-22ad9262661d
+* id: 9470ee0f-4b38-43de-aaa2-22ad9262662d
 * title: Big O performance of HashMap
 * topics: Algorithms
 ##### !question
@@ -701,7 +701,7 @@ O(1)
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 9a456906-eb8f-416d-a231-4d574a666f8b
+* id: 9a456906-eb8f-416d-a231-4d574a666f9b
 * title: Basic operations with HashMap
 * topics: Java
 ### !question
@@ -755,7 +755,7 @@ public class SnippetTest {
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: f3f6e660-4d32-4ccd-92fb-bc579059e166
+* id: f3f6e660-4d32-4ccd-92fb-bc579059e167
 * title: Lists
 * topics: Java
 ##### !question
@@ -778,7 +778,7 @@ in an order
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: b9322706-6f1d-481c-bf09-a1c0120fbd72
+* id: b9322706-6f1d-481c-bf09-a1c0120fbd73
 * title: Sets
 * topics: Java
 ##### !question
@@ -801,7 +801,7 @@ as unique elements
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 5be20142-cf79-4a72-8c08-c56bcb16515c
+* id: 5be20142-cf79-4a72-8c08-c56bcb16516c
 * title: Using a lambda
 * topics: Java
 ### !question
@@ -865,7 +865,7 @@ public class SnippetTest {
 
 ### !challenge
 * type: short-answer
-* id: 24f33b42-771e-4b47-ba78-bd0c2f3e352f
+* id: 24f33b42-771e-4b47-ba78-bd0c2f3e353f
 * title: Importing packages
 * topics: Java
 ##### !question
@@ -882,7 +882,7 @@ Answer here
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 1d279117-d21d-4e9c-8b54-0602f034303a
+* id: 1d279117-d21d-4e9c-8b54-0602f034304a
 * title: Implementing an interface
 * topics: Java
 ### !question
@@ -933,7 +933,7 @@ public class SnippetTest {
 
 ### !challenge
 * type: multiple-choice
-* id: fb69ab66-ab51-45d8-b9bf-2a3a722cba83
+* id: fb69ab66-ab51-45d8-b9bf-2a3a722cba85
 * title: Protected
 * topics: Java
 ##### !question
@@ -978,7 +978,7 @@ If you had a `protected` method in your `Product` class, what other classes woul
 
 ### !challenge
 * type: multiple-choice
-* id: 0c9e8543-e13d-49ad-8183-b2cce7d24c1d
+* id: 0c9e8543-e13d-49ad-8183-b2cce7d24c2d
 * title: Private
 * topics: Java
 ##### !question
@@ -1024,7 +1024,7 @@ None of the above
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 7079fab2-ce4c-4bde-ab1c-b113b1ae1860
+* id: 7079fab2-ce4c-4bde-ab1c-b113b1ae1861
 * title: Implementing an interface
 * topics: Java
 ### !question
@@ -1103,7 +1103,7 @@ public class SnippetTest {
 
 ### !challenge
 * type: multiple-choice
-* id: 1c708ee3-5b1e-44cd-8403-b24e1d3fed13
+* id: 1c708ee3-5b1e-44cd-8403-b24e1d3fed17
 * title: Calling static fields
 * topics: Java
 ##### !question
@@ -1137,7 +1137,7 @@ Given the following code, how would I get the value of the static field `BAR`?
 ### !challenge
 * type: code-snippet
 * language: java
-* id: 36a7ff75-cfd4-4da5-8bb2-eedea9e1c18c
+* id: 36a7ff75-cfd4-4da5-8bb2-eedea9e1c19c
 * title: Creating a nested static class
 * topics: Java
 ### !question
@@ -1291,7 +1291,7 @@ public class SnippetTest {
 
 ### !challenge
 * type: multiple-choice
-* id: 89c11a1c-3697-4bbb-b88f-3e0c186cf356
+* id: 89c11a1c-3697-4bbb-b88f-3e0c186cf357
 * title: Catch block
 * topics: Java
 ##### !question
@@ -1360,7 +1360,7 @@ D
 ### !challenge
 * type: code-snippet
 * language: java
-* id: c4981134-ebb3-4b90-a080-e8a9a0bf4fb8
+* id: c4981134-ebb3-4b90-a080-e8a9a0bf4fb9
 * title: Throw a custom exception
 * topics: Java
 ### !question
@@ -1399,7 +1399,7 @@ public static void run() {
 
 ### !challenge
 * type: multiple-choice
-* id: 31575f28-22ee-477e-b50f-9d8e97af103c
+* id: 31575f28-22ee-477e-b50f-9d8e97af104c
 * title: Testing exceptions with try/catch
 * topics: Java
 ##### !question
@@ -1436,7 +1436,7 @@ The test passes
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: f9cb7b20-369c-4c6f-9262-d9f0778ba6aa
+* id: f9cb7b20-369c-4c6f-9262-d9f0778ba7aa
 * title: Closing the resource
 * topics: Java
 ##### !question
@@ -1455,7 +1455,7 @@ False
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 2f858020-b504-4e98-af32-3fbe82d46e7b
+* id: 2f858020-b504-4e98-af32-3fbe82d46e8b
 * title: Invoking a method
 * topics: Java
 ##### !question
@@ -1476,7 +1476,7 @@ Stack frame
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: e64a17dc-910a-405e-8d82-505b218b7a69
+* id: e64a17dc-910a-405e-8d82-505b218b7a60
 * title: Stored primitives
 * topics: Java
 ##### !question
@@ -1499,7 +1499,7 @@ Stack
 <!--BEGIN CHALLENGE-->
 ### !challenge
 * type: multiple-choice
-* id: 71677836-d973-4f78-8a4c-1457a4a10010
+* id: 71677836-d973-4f78-8a4c-1457a4a10011
 * title: Creating objects
 * topics: Java
 ##### !question
