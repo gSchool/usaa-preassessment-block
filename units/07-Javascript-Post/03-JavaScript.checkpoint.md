@@ -8,7 +8,7 @@ This assessment is to help determine which courses need to be taken and not an e
 ### !challenge
 * type: code-snippet
 * language: javascript
-* id: c310d502-9c87-4e42-a989-686e0cf5f465
+* id: c310d502-9c87-4e42-a989-686e0cf5f464
 * title: Primitive Types Checkpoint B
 * standard_uuids: WD-DgkEAAUBDwM
 * topics: JavaScript
@@ -68,7 +68,7 @@ describe('Complex Comparisons', function () {
 ### !challenge
 * type: code-snippet
 * language: javascript
-* id: 68023D2D-9BED-4BA1-965F-C133EA2989FB
+* id: 68023D2D-9BED-4BA1-965F-C133EA2989FA
 * title: Data Structures Checkpoint
 * standard_uuids: WD-Aw0MCQwHCgs
 * topics: JavaScript
@@ -137,7 +137,7 @@ describe('orders array', function() {
 ### !challenge
 * type: code-snippet
 * language: javascript
-* id: 233483f6-980b-4f1f-9cef-78d2ee93c3ea
+* id: 233483f6-980b-4f1f-9cef-78d2ee93c3eb
 * title: Complete the steps
 * topics: JavaScript
 ### !question
@@ -223,7 +223,7 @@ describe('Test results', () => {
 ### !challenge
 * type: code-snippet
 * language: javascript
-* id: BB49300F-B507-4CC5-B1A4-C8D40283A1E7
+* id: BB49300F-B507-4CC5-B1A4-C8D40283A1E8
 * title: Functions Checkpoint A
 * standard_uuids: WD-CAYKDAkEDQ4
 * topics: JavaScript
@@ -276,7 +276,7 @@ describe('intenseString', function() {
 ### !challenge
 * type: code-snippet
 * language: javascript
-* id: 69803030-E0EF-46AF-B064-B2D25B81F83D
+* id: 69803030-E0EF-46AF-B064-B2D25B81F83A
 * title: Functions Checkpoint Mean
 * standard_uuids: WD-CAYKDAkEDQ4
 * topics: JavaScript
@@ -307,7 +307,7 @@ describe('mean function', function() {
 
 ### !challenge
 * type: multiple-choice
-* id: c703daca-2b8b-49cd-b6af-f2efa771fc5f
+* id: c703daca-2b8b-49cd-b6af-f2efa771fc5a
 * title: Syntax Errors
 * topics: JavaScript
 ##### !question
@@ -329,7 +329,7 @@ Take a look at the following error. Choose the option below that would fix the e
 ### !challenge
 * type: code-snippet
 * language: javascript
-* id: 1a03a7b3-0065-490a-8b74-9f9d36a5247c
+* id: 1a03a7b3-0065-490a-8b74-9f9d36a5247d
 * title: Wolf Fencing
 * topics: JavaScript
 ### !question
@@ -394,7 +394,7 @@ describe('findById()', function() {
 ### !challenge
 * type: code-snippet
 * language: javascript
-* id: bdb74da8-148d-411c-8417-460b6114b31c
+* id: bdb74da8-148d-411c-8417-460b6114b31a
 * title: Convert to ES6
 * topics: JavaScript
 ### !question
